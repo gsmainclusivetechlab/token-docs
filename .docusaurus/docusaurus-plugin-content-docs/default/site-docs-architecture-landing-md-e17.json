@@ -1,0 +1,12 @@
+{
+  "unversionedId": "architecture/landing",
+  "id": "architecture/landing",
+  "isDocsHomePage": false,
+  "title": "Landing Page",
+  "description": "The project's landing page contains relevant information for a better",
+  "source": "@site/docs/architecture/landing.md",
+  "slug": "/landing",
+  "permalink": "/landing",
+  "version": "current",
+  "sidebar_label": "Landing Page"
+}

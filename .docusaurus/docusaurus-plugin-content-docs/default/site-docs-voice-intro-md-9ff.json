@@ -1,0 +1,21 @@
+{
+  "unversionedId": "voice/intro",
+  "id": "voice/intro",
+  "isDocsHomePage": false,
+  "title": "Introduction",
+  "description": "Voice is one of the biometric types approachd in the B4LL project to demonstrate",
+  "source": "@site/docs/voice/intro.md",
+  "slug": "/voice/intro",
+  "permalink": "/voice/intro",
+  "version": "current",
+  "sidebar_label": "Introduction",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Biometric Suppliers",
+    "permalink": "/suppliers"
+  },
+  "next": {
+    "title": "Call Centre Flow",
+    "permalink": "/voice/flow"
+  }
+}

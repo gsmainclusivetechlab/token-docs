@@ -1,0 +1,12 @@
+{
+  "unversionedId": "itl",
+  "id": "itl",
+  "isDocsHomePage": false,
+  "title": "GSMA Inclusive Tech Lab",
+  "description": "In developed and developing markets alike, societies are becoming increasingly",
+  "source": "@site/docs/itl.mdx",
+  "slug": "/itl",
+  "permalink": "/itl",
+  "version": "current",
+  "sidebar_label": "Inclusive Tech Lab"
+}

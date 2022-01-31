@@ -1,0 +1,21 @@
+{
+  "unversionedId": "manual/tutorials",
+  "id": "manual/tutorials",
+  "isDocsHomePage": false,
+  "title": "Tutorials",
+  "description": "ADD HERE CONTENT FOR TUTORIALS",
+  "source": "@site/docs/manual/tutorials.md",
+  "slug": "/manual/tutorials",
+  "permalink": "/manual/tutorials",
+  "version": "current",
+  "sidebar_label": "Tutorials",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Use Cases",
+    "permalink": "/manual/usecases"
+  },
+  "next": {
+    "title": "Reporting bugs",
+    "permalink": "/contributors-guide/reportingbugs"
+  }
+}

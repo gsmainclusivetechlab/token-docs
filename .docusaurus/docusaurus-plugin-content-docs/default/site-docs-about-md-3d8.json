@@ -1,0 +1,17 @@
+{
+  "unversionedId": "about",
+  "id": "about",
+  "isDocsHomePage": false,
+  "title": "The Token Project",
+  "description": "Background",
+  "source": "@site/docs/about.md",
+  "slug": "/",
+  "permalink": "/",
+  "version": "current",
+  "sidebar_label": "Tokenisation",
+  "sidebar": "someSidebar",
+  "next": {
+    "title": "Documentation Guide",
+    "permalink": "/docguide"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "unversionedId": "fingerprint/intro",
+  "id": "fingerprint/intro",
+  "isDocsHomePage": false,
+  "title": "Introduction",
+  "description": "The solution for fingerprint is still under development.",
+  "source": "@site/docs/fingerprint/intro.md",
+  "slug": "/fingerprint/intro",
+  "permalink": "/fingerprint/intro",
+  "version": "current",
+  "sidebar_label": "Under Development"
+}

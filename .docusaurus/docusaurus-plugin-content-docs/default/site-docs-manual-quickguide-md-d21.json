@@ -1,0 +1,21 @@
+{
+  "unversionedId": "manual/quickguide",
+  "id": "manual/quickguide",
+  "isDocsHomePage": false,
+  "title": "Quick Guide",
+  "description": "This guide goes through the steps needed to register and use our demo.",
+  "source": "@site/docs/manual/quickguide.md",
+  "slug": "/manual/quickguide",
+  "permalink": "/manual/quickguide",
+  "version": "current",
+  "sidebar_label": "Quick Guide",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Biometric Suppliers",
+    "permalink": "/suppliers"
+  },
+  "next": {
+    "title": "Use Cases",
+    "permalink": "/manual/usecases"
+  }
+}

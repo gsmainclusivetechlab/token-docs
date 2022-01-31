@@ -1,0 +1,21 @@
+{
+  "unversionedId": "app/usecases",
+  "id": "app/usecases",
+  "isDocsHomePage": false,
+  "title": "B4LL Application - Use Cases",
+  "description": "Simulating payment transactions",
+  "source": "@site/docs/app/usecases.md",
+  "slug": "/app/usecases",
+  "permalink": "/app/usecases",
+  "version": "current",
+  "sidebar_label": "Use Cases",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "B4LL Application - Setup & Registration",
+    "permalink": "/app/setup"
+  },
+  "next": {
+    "title": "B4LL Application - Settings",
+    "permalink": "/app/settings"
+  }
+}

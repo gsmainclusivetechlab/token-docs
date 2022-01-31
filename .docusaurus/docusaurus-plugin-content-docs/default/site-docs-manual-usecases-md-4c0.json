@@ -1,0 +1,21 @@
+{
+  "unversionedId": "manual/usecases",
+  "id": "manual/usecases",
+  "isDocsHomePage": false,
+  "title": "Use Cases",
+  "description": "ADD HERE CONTENT FOR USE CASES",
+  "source": "@site/docs/manual/usecases.md",
+  "slug": "/manual/usecases",
+  "permalink": "/manual/usecases",
+  "version": "current",
+  "sidebar_label": "Use Cases",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Quick Guide",
+    "permalink": "/manual/quickguide"
+  },
+  "next": {
+    "title": "Tutorials",
+    "permalink": "/manual/tutorials"
+  }
+}

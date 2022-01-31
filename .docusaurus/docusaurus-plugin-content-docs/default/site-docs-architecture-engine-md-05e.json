@@ -1,0 +1,21 @@
+{
+  "unversionedId": "architecture/engine",
+  "id": "architecture/engine",
+  "isDocsHomePage": false,
+  "title": "Engine",
+  "description": "In the platform architecture. the Engine acts as a centralizer of the existing",
+  "source": "@site/docs/architecture/engine.md",
+  "slug": "/architecture/engine",
+  "permalink": "/architecture/engine",
+  "version": "current",
+  "sidebar_label": "Engine",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Communication Channels",
+    "permalink": "/app"
+  },
+  "next": {
+    "title": "Biometric Suppliers",
+    "permalink": "/suppliers"
+  }
+}

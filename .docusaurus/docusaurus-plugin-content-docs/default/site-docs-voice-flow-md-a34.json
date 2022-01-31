@@ -1,0 +1,21 @@
+{
+  "unversionedId": "voice/flow",
+  "id": "voice/flow",
+  "isDocsHomePage": false,
+  "title": "Call Centre Flow",
+  "description": "The call centre has the purpose to present the main use cases scenarios for",
+  "source": "@site/docs/voice/flow.md",
+  "slug": "/voice/flow",
+  "permalink": "/voice/flow",
+  "version": "current",
+  "sidebar_label": "Navigation Flow",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/voice/intro"
+  },
+  "next": {
+    "title": "Use Cases",
+    "permalink": "/voice/usecases"
+  }
+}

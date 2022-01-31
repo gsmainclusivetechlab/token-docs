@@ -1,0 +1,520 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "versionLabel": "Next",
+          "versionPath": "/",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/eudis/Dev/GSMA/token/token-docs/src/frontend/sidebars.js",
+          "docsDirPath": "/Users/eudis/Dev/GSMA/token/token-docs/docs",
+          "docsDirPathLocalized": "/Users/eudis/Dev/GSMA/token/token-docs/i18n/en/docusaurus-plugin-content-docs/current",
+          "mainDocId": "about",
+          "sidebars": {
+            "someSidebar": [
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Introduction",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "about"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "docguide"
+                  }
+                ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Architecture",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "architecture/overview"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "architecture/app"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "architecture/engine"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "architecture/suppliers"
+                  }
+                ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "User Manuals",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "manual/quickguide"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "manual/usecases"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "manual/tutorials"
+                  }
+                ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Contributor's Guide",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "contributors-guide/reportingbugs"
+                  }
+                ]
+              }
+            ]
+          },
+          "permalinkToSidebar": {
+            "/": "someSidebar",
+            "/app": "someSidebar",
+            "/architecture/engine": "someSidebar",
+            "/architecture/overview": "someSidebar",
+            "/suppliers": "someSidebar",
+            "/contributors-guide/reportingbugs": "someSidebar",
+            "/docguide": "someSidebar",
+            "/manual/quickguide": "someSidebar",
+            "/manual/tutorials": "someSidebar",
+            "/manual/usecases": "someSidebar"
+          },
+          "docs": [
+            {
+              "unversionedId": "about",
+              "id": "about",
+              "isDocsHomePage": false,
+              "title": "The Token Project",
+              "description": "Background",
+              "source": "@site/docs/about.md",
+              "slug": "/",
+              "permalink": "/",
+              "version": "current",
+              "sidebar_label": "Tokenisation",
+              "sidebar": "someSidebar",
+              "next": {
+                "title": "Documentation Guide",
+                "permalink": "/docguide"
+              }
+            },
+            {
+              "unversionedId": "architecture/app",
+              "id": "architecture/app",
+              "isDocsHomePage": false,
+              "title": "Communication Channels",
+              "description": "Communication channels act as a point of interaction between the user and the",
+              "source": "@site/docs/architecture/app.md",
+              "slug": "/app",
+              "permalink": "/app",
+              "version": "current",
+              "sidebar_label": "Communication Channels",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "B4LL Architecture",
+                "permalink": "/architecture/overview"
+              },
+              "next": {
+                "title": "Engine",
+                "permalink": "/architecture/engine"
+              }
+            },
+            {
+              "unversionedId": "architecture/engine",
+              "id": "architecture/engine",
+              "isDocsHomePage": false,
+              "title": "Engine",
+              "description": "In the platform architecture. the Engine acts as a centralizer of the existing",
+              "source": "@site/docs/architecture/engine.md",
+              "slug": "/architecture/engine",
+              "permalink": "/architecture/engine",
+              "version": "current",
+              "sidebar_label": "Engine",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Communication Channels",
+                "permalink": "/app"
+              },
+              "next": {
+                "title": "Biometric Suppliers",
+                "permalink": "/suppliers"
+              }
+            },
+            {
+              "unversionedId": "architecture/landing",
+              "id": "architecture/landing",
+              "isDocsHomePage": false,
+              "title": "Landing Page",
+              "description": "The project's landing page contains relevant information for a better",
+              "source": "@site/docs/architecture/landing.md",
+              "slug": "/landing",
+              "permalink": "/landing",
+              "version": "current",
+              "sidebar_label": "Landing Page"
+            },
+            {
+              "unversionedId": "architecture/overview",
+              "id": "architecture/overview",
+              "isDocsHomePage": false,
+              "title": "B4LL Architecture",
+              "description": "This section describes the architecture proposed for the B4LL project. The",
+              "source": "@site/docs/architecture/overview.md",
+              "slug": "/architecture/overview",
+              "permalink": "/architecture/overview",
+              "version": "current",
+              "sidebar_label": "Overview",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Documentation Guide",
+                "permalink": "/docguide"
+              },
+              "next": {
+                "title": "Communication Channels",
+                "permalink": "/app"
+              }
+            },
+            {
+              "unversionedId": "architecture/suppliers",
+              "id": "architecture/suppliers",
+              "isDocsHomePage": false,
+              "title": "Biometric Suppliers",
+              "description": "Biometrics suppliers are one of the most important components of our",
+              "source": "@site/docs/architecture/suppliers.md",
+              "slug": "/suppliers",
+              "permalink": "/suppliers",
+              "version": "current",
+              "sidebar_label": "Biometric Suppliers",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Engine",
+                "permalink": "/architecture/engine"
+              },
+              "next": {
+                "title": "Quick Guide",
+                "permalink": "/manual/quickguide"
+              }
+            },
+            {
+              "unversionedId": "contributors-guide/contributing",
+              "id": "contributors-guide/contributing",
+              "isDocsHomePage": false,
+              "title": "Contributing",
+              "source": "@site/docs/contributors-guide/contributing.md",
+              "slug": "/contributors-guide/contributing",
+              "permalink": "/contributors-guide/contributing",
+              "version": "current",
+              "sidebar_label": "Contributing"
+            },
+            {
+              "unversionedId": "contributors-guide/reportingbugs",
+              "id": "contributors-guide/reportingbugs",
+              "isDocsHomePage": false,
+              "title": "Reporting bugs",
+              "description": "We use GitHub issues to track bugs. Issues are logged on individual project",
+              "source": "@site/docs/contributors-guide/reportingbugs.md",
+              "slug": "/contributors-guide/reportingbugs",
+              "permalink": "/contributors-guide/reportingbugs",
+              "version": "current",
+              "sidebar_label": "Reporting bugs",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Tutorials",
+                "permalink": "/manual/tutorials"
+              }
+            },
+            {
+              "unversionedId": "docguide",
+              "id": "docguide",
+              "isDocsHomePage": false,
+              "title": "Documentation Guide",
+              "description": "REVIEW AND CREATE A GUIDE WHEN ALL THE DOCUMENTATION IS FINALISED",
+              "source": "@site/docs/docguide.mdx",
+              "slug": "/docguide",
+              "permalink": "/docguide",
+              "version": "current",
+              "sidebar_label": "Documentation Guide",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "The Token Project",
+                "permalink": "/"
+              },
+              "next": {
+                "title": "B4LL Architecture",
+                "permalink": "/architecture/overview"
+              }
+            },
+            {
+              "unversionedId": "installation/introduction",
+              "id": "installation/introduction",
+              "isDocsHomePage": false,
+              "title": "Installation",
+              "source": "@site/docs/installation/introduction.md",
+              "slug": "/installation/introduction",
+              "permalink": "/installation/introduction",
+              "version": "current",
+              "sidebar_label": "Introduction"
+            },
+            {
+              "unversionedId": "itl",
+              "id": "itl",
+              "isDocsHomePage": false,
+              "title": "GSMA Inclusive Tech Lab",
+              "description": "In developed and developing markets alike, societies are becoming increasingly",
+              "source": "@site/docs/itl.mdx",
+              "slug": "/itl",
+              "permalink": "/itl",
+              "version": "current",
+              "sidebar_label": "Inclusive Tech Lab"
+            },
+            {
+              "unversionedId": "manual/quickguide",
+              "id": "manual/quickguide",
+              "isDocsHomePage": false,
+              "title": "Quick Guide",
+              "description": "This guide goes through the steps needed to register and use our demo.",
+              "source": "@site/docs/manual/quickguide.md",
+              "slug": "/manual/quickguide",
+              "permalink": "/manual/quickguide",
+              "version": "current",
+              "sidebar_label": "Quick Guide",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Biometric Suppliers",
+                "permalink": "/suppliers"
+              },
+              "next": {
+                "title": "Use Cases",
+                "permalink": "/manual/usecases"
+              }
+            },
+            {
+              "unversionedId": "manual/tutorials",
+              "id": "manual/tutorials",
+              "isDocsHomePage": false,
+              "title": "Tutorials",
+              "description": "ADD HERE CONTENT FOR TUTORIALS",
+              "source": "@site/docs/manual/tutorials.md",
+              "slug": "/manual/tutorials",
+              "permalink": "/manual/tutorials",
+              "version": "current",
+              "sidebar_label": "Tutorials",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Use Cases",
+                "permalink": "/manual/usecases"
+              },
+              "next": {
+                "title": "Reporting bugs",
+                "permalink": "/contributors-guide/reportingbugs"
+              }
+            },
+            {
+              "unversionedId": "manual/usecases",
+              "id": "manual/usecases",
+              "isDocsHomePage": false,
+              "title": "Use Cases",
+              "description": "ADD HERE CONTENT FOR USE CASES",
+              "source": "@site/docs/manual/usecases.md",
+              "slug": "/manual/usecases",
+              "permalink": "/manual/usecases",
+              "version": "current",
+              "sidebar_label": "Use Cases",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Quick Guide",
+                "permalink": "/manual/quickguide"
+              },
+              "next": {
+                "title": "Tutorials",
+                "permalink": "/manual/tutorials"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogPosts": [
+        {
+          "id": "welcome",
+          "metadata": {
+            "permalink": "/blog/welcome",
+            "source": "@site/blog/2019-05-30-welcome.md",
+            "description": "Blog features are powered by the blog plugin. Simply add files to the blog directory. It supports tags as well!",
+            "date": "2019-05-30T00:00:00.000Z",
+            "formattedDate": "May 30, 2019",
+            "tags": [
+              {
+                "label": "facebook",
+                "permalink": "/blog/tags/facebook"
+              },
+              {
+                "label": "hello",
+                "permalink": "/blog/tags/hello"
+              },
+              {
+                "label": "docusaurus",
+                "permalink": "/blog/tags/docusaurus"
+              }
+            ],
+            "title": "Welcome",
+            "readingTime": 0.175,
+            "truncated": false,
+            "nextItem": {
+              "title": "Hello",
+              "permalink": "/blog/hello-world"
+            }
+          }
+        },
+        {
+          "id": "hello-world",
+          "metadata": {
+            "permalink": "/blog/hello-world",
+            "source": "@site/blog/2019-05-29-hello-world.md",
+            "description": "Welcome to this blog. This blog is created with Docusaurus 2 alpha.",
+            "date": "2019-05-29T00:00:00.000Z",
+            "formattedDate": "May 29, 2019",
+            "tags": [
+              {
+                "label": "hello",
+                "permalink": "/blog/tags/hello"
+              },
+              {
+                "label": "docusaurus",
+                "permalink": "/blog/tags/docusaurus"
+              }
+            ],
+            "title": "Hello",
+            "readingTime": 0.12,
+            "truncated": true,
+            "prevItem": {
+              "title": "Welcome",
+              "permalink": "/blog/welcome"
+            },
+            "nextItem": {
+              "title": "Hola",
+              "permalink": "/blog/hola"
+            }
+          }
+        },
+        {
+          "id": "hola",
+          "metadata": {
+            "permalink": "/blog/hola",
+            "source": "@site/blog/2019-05-28-hola.md",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
+            "date": "2019-05-28T00:00:00.000Z",
+            "formattedDate": "May 28, 2019",
+            "tags": [
+              {
+                "label": "hola",
+                "permalink": "/blog/tags/hola"
+              },
+              {
+                "label": "docusaurus",
+                "permalink": "/blog/tags/docusaurus"
+              }
+            ],
+            "title": "Hola",
+            "readingTime": 0.12,
+            "truncated": false,
+            "prevItem": {
+              "title": "Hello",
+              "permalink": "/blog/hello-world"
+            }
+          }
+        }
+      ],
+      "blogListPaginated": [
+        {
+          "metadata": {
+            "permalink": "/blog",
+            "page": 1,
+            "postsPerPage": 10,
+            "totalPages": 1,
+            "totalCount": 3,
+            "previousPage": null,
+            "nextPage": null,
+            "blogDescription": "Blog",
+            "blogTitle": "Blog"
+          },
+          "items": [
+            "welcome",
+            "hello-world",
+            "hola"
+          ]
+        }
+      ],
+      "blogTags": {
+        "facebook": {
+          "name": "facebook",
+          "items": [
+            "welcome"
+          ],
+          "permalink": "/blog/tags/facebook"
+        },
+        "hello": {
+          "name": "hello",
+          "items": [
+            "welcome",
+            "hello-world"
+          ],
+          "permalink": "/blog/tags/hello"
+        },
+        "docusaurus": {
+          "name": "docusaurus",
+          "items": [
+            "welcome",
+            "hello-world",
+            "hola"
+          ],
+          "permalink": "/blog/tags/docusaurus"
+        },
+        "hola": {
+          "name": "hola",
+          "items": [
+            "hola"
+          ],
+          "permalink": "/blog/tags/hola"
+        }
+      },
+      "blogTagsListPath": "/blog/tags"
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "mdx",
+        "permalink": "/markdown-page",
+        "source": "@site/src/pages/markdown-page.md"
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {
+    "default": null
+  },
+  "docusaurus-theme-classic": {
+    "default": null
+  },
+  "my-docusaurus-plugin": {
+    "default": null
+  }
+}

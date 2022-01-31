@@ -1,0 +1,21 @@
+{
+  "unversionedId": "app/settings",
+  "id": "app/settings",
+  "isDocsHomePage": false,
+  "title": "B4LL Application - Settings",
+  "description": "1.\tThe applications settings can be accessed via the “Settings” menu on the bottom navigation of the application.",
+  "source": "@site/docs/app/settings.md",
+  "slug": "/app/settings",
+  "permalink": "/app/settings",
+  "version": "current",
+  "sidebar_label": "Settings",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "B4LL Application - Use Cases",
+    "permalink": "/app/usecases"
+  },
+  "next": {
+    "title": "Quick Guide",
+    "permalink": "/manual/quickguide"
+  }
+}

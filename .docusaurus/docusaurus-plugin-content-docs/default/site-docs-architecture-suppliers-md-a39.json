@@ -1,0 +1,21 @@
+{
+  "unversionedId": "architecture/suppliers",
+  "id": "architecture/suppliers",
+  "isDocsHomePage": false,
+  "title": "Biometric Suppliers",
+  "description": "Biometrics suppliers are one of the most important components of our",
+  "source": "@site/docs/architecture/suppliers.md",
+  "slug": "/suppliers",
+  "permalink": "/suppliers",
+  "version": "current",
+  "sidebar_label": "Biometric Suppliers",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Engine",
+    "permalink": "/architecture/engine"
+  },
+  "next": {
+    "title": "Quick Guide",
+    "permalink": "/manual/quickguide"
+  }
+}

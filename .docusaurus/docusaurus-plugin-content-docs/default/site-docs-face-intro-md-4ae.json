@@ -1,0 +1,12 @@
+{
+  "unversionedId": "face/intro",
+  "id": "face/intro",
+  "isDocsHomePage": false,
+  "title": "Introduction",
+  "description": "The solution for face recognition is still under development.",
+  "source": "@site/docs/face/intro.md",
+  "slug": "/face/intro",
+  "permalink": "/face/intro",
+  "version": "current",
+  "sidebar_label": "Under Development"
+}

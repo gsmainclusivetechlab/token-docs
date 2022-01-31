@@ -1,0 +1,21 @@
+{
+  "unversionedId": "docguide",
+  "id": "docguide",
+  "isDocsHomePage": false,
+  "title": "Documentation Guide",
+  "description": "REVIEW AND CREATE A GUIDE WHEN ALL THE DOCUMENTATION IS FINALISED",
+  "source": "@site/docs/docguide.mdx",
+  "slug": "/docguide",
+  "permalink": "/docguide",
+  "version": "current",
+  "sidebar_label": "Documentation Guide",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "The Token Project",
+    "permalink": "/"
+  },
+  "next": {
+    "title": "B4LL Architecture",
+    "permalink": "/architecture/overview"
+  }
+}

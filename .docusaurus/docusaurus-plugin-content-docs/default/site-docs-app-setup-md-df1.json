@@ -1,0 +1,21 @@
+{
+  "unversionedId": "app/setup",
+  "id": "app/setup",
+  "isDocsHomePage": false,
+  "title": "B4LL Application - Setup & Registration",
+  "description": "Download & launch",
+  "source": "@site/docs/app/setup.md",
+  "slug": "/app/setup",
+  "permalink": "/app/setup",
+  "version": "current",
+  "sidebar_label": "Setup & Registration",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Alerts",
+    "permalink": "/voice/alerts"
+  },
+  "next": {
+    "title": "B4LL Application - Use Cases",
+    "permalink": "/app/usecases"
+  }
+}

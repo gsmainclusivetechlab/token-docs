@@ -1,0 +1,17 @@
+{
+  "unversionedId": "contributors-guide/reportingbugs",
+  "id": "contributors-guide/reportingbugs",
+  "isDocsHomePage": false,
+  "title": "Reporting bugs",
+  "description": "We use GitHub issues to track bugs. Issues are logged on individual project",
+  "source": "@site/docs/contributors-guide/reportingbugs.md",
+  "slug": "/contributors-guide/reportingbugs",
+  "permalink": "/contributors-guide/reportingbugs",
+  "version": "current",
+  "sidebar_label": "Reporting bugs",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Tutorials",
+    "permalink": "/manual/tutorials"
+  }
+}
