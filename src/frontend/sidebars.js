@@ -1,27 +1,26 @@
 module.exports = {
     someSidebar: {
         'Introduction': [
-            'about', 
+            'about',
             'docguide',
         ],
         'Architecture': [
             'architecture/overview',
-            'architecture/app',
-            'architecture/engine',
-            'architecture/suppliers',
         ],
         'Running Instructions': [
-            'running-instructions/for-developers',
-            // 'running-instructions/for-demonstration',
+            'instructions/developers',
+            'instructions/demonstration',
+            'instructions/live-demo',
         ],
-        'User Manuals': [
-            'manual/quickguide',
+        'User Guide': [
             'manual/usecases',
-            'manual/tutorials'
+        ],
+        'Adoptions Guide': [
+            'adoptions/adopt',
         ],
         "Contributor's Guide": [
-            //'contributors-guide/contributing',
-            'contributors-guide/reportingbugs',
+            'contributors-guide/contributing',
+            // 'contributors-guide/reportingbugs',
         ],
     },
 };

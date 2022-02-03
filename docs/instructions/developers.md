@@ -1,7 +1,7 @@
 ---
-id: for-developers
+id: developers
 title: Runnig Instruction
-sidebar_label: For developers
+sidebar_label: Developers
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
