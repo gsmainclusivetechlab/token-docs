@@ -10,6 +10,10 @@ module.exports = {
             'architecture/engine',
             'architecture/suppliers',
         ],
+        'Running Instructions': [
+            'running-instructions/for-developers',
+            // 'running-instructions/for-demonstration',
+        ],
         'User Manuals': [
             'manual/quickguide',
             'manual/usecases',
