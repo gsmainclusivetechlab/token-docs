@@ -1,6 +1,6 @@
 ---
 id: live-demo
-title: Demo
+title: Live Demo
 sidebar_label: Live Demo
 ---
 

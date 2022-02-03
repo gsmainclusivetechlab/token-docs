@@ -1,7 +1,7 @@
 ---
-id: demonstration
-title: Demonstration
-sidebar_label: Demonstration
+id: on-premises-demo
+title: On Premises Demo
+sidebar_label: On Premises Demo
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
