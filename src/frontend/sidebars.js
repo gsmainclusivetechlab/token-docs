@@ -7,10 +7,9 @@ module.exports = {
         'Architecture': [
             'architecture/overview',
         ],
-        'Running Instructions': [
-            'instructions/developers',
-            'instructions/on-premises-demo',
-            'instructions/live-demo',
+        'Developer Guide': [
+            'developer-guide/developers',
+            'developer-guide/on-premises-demo'
         ],
         'User Guide': [
             'manual/usecases',

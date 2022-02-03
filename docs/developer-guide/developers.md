@@ -4,38 +4,12 @@ title: Runnig Instruction
 sidebar_label: Developers
 ---
 
-import useBaseUrl from '@docusaurus/useBaseUrl';
-
-
-If a developer wants to run the solution locally, there are two ways:
-
-- Running docker images locally
-- Running the code locally
-
 :::info Prerequisite - This solution require
 
 - Docker Compose Version: +1.29
 - Docker Version: +17.06
 
 :::
-
-### Running docker images locally
-
-In this case, the developer need to access the token-backend repository (https://github.com/gsmainclusivetechlab/token-backend) and go to release branch to copy the docker-compose.yml and .env file, then follow the next steps:
-
-1. Run this command
-
-```
-docker-compose up -d 
-```
-
-2. Open browser on http://localhost:8080
-
-3. To teardown everything, run the next command
-     
-```
-docker-compose down
-```
 
 ### Running the code locally
 
