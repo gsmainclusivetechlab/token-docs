@@ -6,31 +6,34 @@ sidebar_label: Overview
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-The architecture is divided into eigth parts, the most important parts are 
+The architecture is divided into eight parts, the most important parts are 
 Engine, Token Solution and Token Solution DataBase, the rest cant be disposable. 
 This three will allow whoever implements this solution to be able to convert 
-a phone number into the token. More details can be found in the following 
-sections<sup>[1](#landingpage)</sup>:
+a phone number into the token.
+
+The eight parts are:
 
 1. **Vue page:** The web page used for the user to be able to test the use cases,
 here it will be possible to sign up the user and test the agent, merchant and customer flows.
 
-2. **Proxy:** - It's an api that serve as a point of contact between the web page and the rest of the api's.
+2. **Proxy:** - It's an Api that serve as a point of contact between the web page and the rest of the Api's.
 Here are stored the agent's/merchant's operations and notifications as well as the messages that the virtual 
 mobile will receive.
 
-3. **SMS Gateway:** It's an api that will simulate a Mobile Operator api. 
-In this case, this api is the point of contact for twilio and will send the message to the Engine api received from Proxy api.
+3. **SMS Gateway:** It's an Api that will simulate a Mobile Operator Api. 
+In this case, this Api is the point of contact for twilio and will send the message to the Engine Api received from Proxy Api.
 
-4. **USSD Gateway:** It's an api that will simulate a Mobile Operator api. 
-In this case, this api have a USSD menu and will send the message to the Engine api received from Proxy api.
+4. **USSD Gateway:** It's an Api that will simulate a Mobile Operator Api. 
+In this case, this Api have a USSD menu and will send the message to the Engine Api received from Proxy Api.
 
-5. **Engine:** This api is the center of the solution, here we receive all the requests from the Vue Page or Twilio.
+5. **Engine:** This Api is the center of the solution, here we receive all the requests from the Vue Page or Twilio.
 
-6. **MMO:** It's an api that will simulate a Mobile Money Operator.
-Here we have store in memory all the pending transactions create by the users and we make users management and store them.
+6. **MMO:** It's an Api that will simulate a Mobile Money Operator.
+In here we have all the pending transactions created by the users stored in memory, and we have the logic to manage the users (create/delete account's)
 
-7. **Token Algorithm Solution:** It's an api where we have all the logic which allows associating a token to a phone number.
+7. **Token Algorithm Solution:** It's an Api where we have all the logic which allows associating a token to a phone number.
+
+8. **Token DB Solution:** Where the user information and token are stored.
 
 ### Architectural Parts
 
