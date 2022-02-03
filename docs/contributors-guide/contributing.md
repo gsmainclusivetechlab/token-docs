@@ -5,7 +5,7 @@ sidebar_label: Contributing
 
 ## Contributing Guidelines
 
-Are you identified with the project theme and you want to contribute with something? ? Here's how you can help.
+Are you identified with the project theme and you want to contribute with something? Here's how you can help.
 
 ### Bugs reports
 
@@ -13,7 +13,7 @@ A bug is a demonstrable problem that is caused by the code in the repository. Go
 
 Guidelines for bug reports:
 
-1. **Use the GitHub issue search** — check if the issue has already been reported.
+1. **Use the [GitHub Issues](https://github.com/gsmainclusivetechlab/token-backend/issues) search** — check if the issue has already been reported.
 
 2. **Check if the issue has been fixed** — try to reproduce it using the latest main or development branch in the repository.
 
