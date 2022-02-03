@@ -4,10 +4,6 @@ title: On Premises Demo
 sidebar_label: On Premises Demo
 ---
 
-This guide goes through the steps needed to register and use our demo.
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
-### New Users
-
-1. **Call** our call centre number
-2. **Follow** the **enrollment process** using the given passphrase
-3. You are now **registered** and will be taken back to the **main menu**
+If a user wants to access the live version, just access this url -> https://token.gsmainclusivetechlab.io/

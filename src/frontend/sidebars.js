@@ -8,7 +8,7 @@ module.exports = {
             'architecture/overview',
         ],
         'Running Instructions': [
-            // 'instructions/developers',
+            'instructions/developers',
             'instructions/on-premises-demo',
             'instructions/live-demo',
         ],
