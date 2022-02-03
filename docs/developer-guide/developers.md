@@ -1,6 +1,6 @@
 ---
 id: developers
-title: Runnig Instruction
+title: Developers
 sidebar_label: Developers
 ---
 
