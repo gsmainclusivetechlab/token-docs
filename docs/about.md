@@ -16,5 +16,8 @@ These safety and security concerns reduce mobile access and use for women. Some 
 
 ## The Token Project
 
+One of the targets of the Token project is to demonstrate the advantages of using a token that will replace the user's phone number to make mobile money transactions with the goal of improving the security of the users.
 
-Add here information about the Token Project
+This showcase consists of a system that allows the user to generate a token based on their phone number to execute transactions preventing their phone number from being exposed.
+
+The available use cases will show that if users use the token they will be able to do the same as they are currently able to do using their phone number.
