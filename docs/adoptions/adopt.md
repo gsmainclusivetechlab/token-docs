@@ -4,6 +4,8 @@ title: Adopt
 sidebar_label: Get Started
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 This section helps you getting started through the ejection process of the modules included on this project so that you can adopt them on your stack.
 
 ### Demonstration Only Modules
