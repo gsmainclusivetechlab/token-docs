@@ -6,9 +6,9 @@ module.exports = {
         ],
         'Architecture': [
             'architecture/overview',
-            'architecture/app',
-            'architecture/engine',
-            'architecture/suppliers',
+            // 'architecture/app',
+            // 'architecture/engine',
+            // 'architecture/suppliers',
         ],
         'User Manuals': [
             'manual/quickguide',
