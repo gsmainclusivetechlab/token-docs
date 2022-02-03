@@ -1,119 +1,47 @@
 ---
 id: overview
-title: B4LL Architecture
+title: Tokenisation Architecture
 sidebar_label: Overview
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-This section describes the architecture proposed for the B4LL project. The
-project was thought to be modular, allowing to offer, when necessary, new use
-cases, types of biometrics and biometrics suppliers.
+The architecture is divided into eigth parts, the most important parts are 
+Engine, Token Solution and Token Solution DataBase, the rest cant be disposable. 
+This three will allow whoever implements this solution to be able to convert 
+a phone number into the token. More details can be found in the following 
+sections<sup>[1](#landingpage)</sup>:
 
-The architecture is divided in three main parts: the communication channels
-(mostly represented by the application), the engine, and the biometrics
-suppliers. Each part is briefly described below. More details can be found in
-the following sections<sup>[1](#landingpage)</sup>:
+1. **Vue page:** The web page used for the user to be able to test the use cases,
+here it will be possible to sign up the user and test the agent, merchant and customer flows.
 
-1. **Communication Channels:** The communication channels are responsible for
-   the communication interface between the user and the b4ll system. The main
-   communication channel is the mobile application, however, these channels can
-   use external communication providers to supply new forms of interaction. The
-   use of Twilio to create a call center is an example of a communication
-   channel provider.
+2. **Proxy:** - It's an api that serve as a point of contact between the web page and the rest of the api's.
+Here are stored the agent's/merchant's operations and notifications as well as the messages that the virtual 
+mobile will receive.
 
-    **Mobile Application:** The main communication channel currently used in the
-    project. The mobile application will provide access to all types of
-    biometrics.
+3. **SMS Gateway:** It's an api that will simulate a Mobile Operator api. 
+In this case, this api is the point of contact for twilio and will send the message to the Engine api received from Proxy api.
 
-2. **Engine:** This part orchestrates the connection between the other parts of
-   the architecture handling the data received from the communication channels
-   and providing it to the engine.
+4. **USSD Gateway:** It's an api that will simulate a Mobile Operator api. 
+In this case, this api have a USSD menu and will send the message to the Engine api received from Proxy api.
 
-3. **Biometric Suppliers:** Biometric solutions available on the market. The
-   connection with the suppliers takes place through an SDK or API and allows
-   access to biometric recognition solutions.
+5. **Engine:** This api is the center of the solution, here we receive all the requests from the Vue Page or Twilio.
+
+6. **MMO:** It's an api that will simulate a Mobile Money Operator.
+Here we have store in memory all the pending transactions create by the users and we make users management and store them.
+
+7. **Token Algorithm Solution:** It's an api where we have all the logic which allows associating a token to a phone number.
 
 ### Architectural Parts
 
-**Figure:** Main components of the architecture.
+**Figure:** All components of the architecture.
 
 <div style={{textAlign: 'center'}}>
-<img alt="B4ll architetcure" src={useBaseUrl('img/ArchitectureParts.svg')}/>
+<img alt="B4ll architetcure" src={useBaseUrl('img/TryTokenArchitecture.png')}/>
 </div>
-
-### Connexions
-
--   The elements of the communication channel are responsible for requests and
-    responses to the engine of the system.
--   The engine orchestrates the flow of messages and directs the requests to the
-    selected biometric supplier.
--   The connection between the engine and the supplier is made using AWS lambda
-    functions and the API or SDK provided by the supplier.
-
-When using B4LL, the user activates one of the communication providers that will
-intermediate data capture through the user interface. In this case, the channel
-can be the mobile application, or another one that is necessary. The
-architecture is prepared to accept extra communication providers and integrates
-them with the engine. The call center is an example of this situation. In this
-case a component to connects the call center to the engine was created.
-
-The business logic of the communication channel integrates the communication
-between the communication provider and the engine, allowing data capture,
-processing and when necessary storage. Then the biometric data is passed to the
-engine.
-
-The engine logic handle the data received from the communication channels and
-provide it to the Biometric Suppliers in an acceptable format. The
-request/response connextion between engine and biometric supplier is done using
-the supplier's API (or SDK) and the engine handler functions.
-
-**Figure:** Architecture components and its relations.
-
-<div style={{textAlign: 'center'}}>
-<img alt="B4ll architetcure" src={useBaseUrl('img/ArchitectureConnexions.svg')}/>
-</div>
-
-:::info Data Storage
-
-It is important to mention here that the biometric data is only stored on the
-biometric suppliers side.
-
-:::
-
-### Detailed View
-
-The diagram below sketches out a microservice-based serverless architecture.
-Embracing a microservice architecture will make it more straightforward to add
-new biometrics types or providers in future through the creation of new
-connections for the new components.
-
-**Figure:** Detailed architectural diagram.
-
-<div style={{textAlign: 'center'}}>
-<img alt="B4ll architetcure" src={useBaseUrl('img/B4llArchitecture.svg')}/>
-</div>
-
-Other services can also be used to enhance the user experience – for example
-DynamoDB may be used to store user data and preferences within the communication
-channel business logic – or for other technical reasons, such as using an S3
-bucket in the biometrics engine to store image data prior to biometric
-verification.
 
 ### Technological Considerations
 
--   The architecture is based on a scalable serveless model using an AWS
-    environment
--   The orchestration and deployment of the components is fully automatable by
-    using AWS CloudFormation and AWS SAM.
--   The main language used for the project is TypeScript
--   The API's follow the API Specification 3.0
-
-    ***
-
-##### Footnotes
-
--   <a name="landingpage">1 </a>: B4LL project page contains relevant
-    information for a better understanding of the use of biometrics and how the
-    B4ll project can support mobile operators in the implementation of biometric
-    technologies.
+- The architecture used docker containers and docker-compose to run all the containers  
+- The main language used for the project is TypeScript
+- The API's follow the API Specification 3.0
