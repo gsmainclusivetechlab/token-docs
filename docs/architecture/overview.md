@@ -40,7 +40,7 @@ In here we have all the pending transactions created by the users stored in memo
 **Figure:** All components of the architecture.
 
 <div style={{textAlign: 'center'}}>
-<img alt="B4ll architetcure" src={useBaseUrl('img/TryTokenArchitecture.png')}/>
+<img alt="TryToken architecture" src={useBaseUrl('img/TryTokenArchitecture.png')}/>
 </div>
 
 ### Technological Considerations

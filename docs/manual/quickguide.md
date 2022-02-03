@@ -1,30 +1,55 @@
 ---
+id: quicksetup
 title: Quick Guide
 sidebar_label: Quick Guide
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 This guide goes through the steps needed to register and use our demo.
 
-### New Users
+Go to the url -> https://token.gsmainclusivetechlab.io/
 
-1. **Call** our call centre number
-2. **Follow** the **enrollment process** using the given passphrase
-3. You are now **registered** and will be taken back to the **main menu**
+### Virtual Mobile Simulation
 
-### Existing Users
+1. **Press** the button ***Try Virtual Token Simulation*** present on page "Try Token" (https://token.gsmainclusivetechlab.io/trytoken), this will create a demo account for you. 
 
-1. **Call** our call centre number
-2. **Verify** your identity using the registered passphrase
-3. You will now be at the **main menu**. **Select** one of the following
-   options:
-    1. **Select 1** to access the **Mobile Money** menu, where you can view
-       **account information**, **pay a bill** or **make a transfer**
-    2. **Select 2** to simulate an **alert**
-    3. **Select 3** to manage your passphrases
-    4. **Select 4** to **deactivate** your account
+2. This is where the users will write the messages on Virtual Mobile Simulation
 
-### Reactivate Account
+<div style={{textAlign: 'center'}}>
+   <img alt="mobile" src={useBaseUrl('img/mobile.png')}/>
+</div>
 
-1. **Call** our call centre number
-2. **Follow** the **reactivation process** using the given passphrase
-3. You are now **reactivated** and will be taken back to the **main menu**
+### Live Token Showcase
+
+1. **Fill** the sign up form, present on page "Try Token" (https://token.gsmainclusivetechlab.io/trytoken), with a nick name and your phone number and press the button ***Try Live Token Simulation*** 
+2. You will receive an access code on your phone
+3. **Insert** that access code on input field and press the button ***Try Live Token Simulation*** again
+
+### Delete Account
+
+**All accounts are deleted every day at 0 AM**, but if user made one operation on showcase, that account will be deleted after five seconds since the user closes the tab.
+
+### Agent/Merchant Simulation
+
+1. This is where the users will make the Agent/Merchant flows
+
+<div style={{textAlign: 'center'}}>
+   <img alt="mobile" src={useBaseUrl('img/agent_merchant.png')}/>
+</div>
+
+2. Here will be the operations that were created by the agent/merchant or by the customer, these operations can be accepted or rejected by the agent 
+
+<div style={{textAlign: 'center'}}>
+   <img alt="mobile" src={useBaseUrl('img/notifications.png')}/>
+</div>
+
+### Default Values
+
+During the simulation, a PIN will be requested to the user to confirm operations. The PIN provided below is the only accepted value.
+
+- Default PIN: **1234**
+
+A Merchant code identifier is also required for the Merchant payment use cases, and the only accepted value is the one below.
+
+- Merchant Code Available: **4321**

@@ -12,7 +12,8 @@ module.exports = {
             'developer-guide/on-premises-demo'
         ],
         'User Guide': [
-            'manual/usecases',
+            'manual/quicksetup',
+            'manual/usecases'
         ],
         'Adoptions Guide': [
             'adoptions/adopt',
