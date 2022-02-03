@@ -1,7 +1,7 @@
 ---
-id: demonstration
-title: Demonstration
-sidebar_label: Demonstration
+id: on-premises-demo
+title: On Premises Demo
+sidebar_label: On Premises Demo
 ---
 
 This guide goes through the steps needed to register and use our demo.

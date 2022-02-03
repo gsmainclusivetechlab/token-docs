@@ -9,7 +9,7 @@ module.exports = {
         ],
         'Running Instructions': [
             // 'instructions/developers',
-            'instructions/demonstration',
+            'instructions/on-premises-demo',
             'instructions/live-demo',
         ],
         'User Guide': [
