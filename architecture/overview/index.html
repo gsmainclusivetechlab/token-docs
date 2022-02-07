@@ -5,18 +5,17 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="generator" content="Docusaurus v2.0.0-alpha.71">
 <link rel="alternate" type="application/rss+xml" href="/blog/rss.xml" title="Token Project Blog RSS Feed">
-<link rel="alternate" type="application/atom+xml" href="/blog/atom.xml" title="Token Project Blog Atom Feed"><title data-react-helmet="true">Tokenisation Architecture | Token Project</title><meta data-react-helmet="true" property="og:url" content="https://gsmainclusivetechlab.github.io/architecture/overview"><meta data-react-helmet="true" name="docusaurus_locale" content="en"><meta data-react-helmet="true" name="docusaurus_version" content="current"><meta data-react-helmet="true" name="docusaurus_tag" content="docs-default-current"><meta data-react-helmet="true" property="og:title" content="Tokenisation Architecture | Token Project"><meta data-react-helmet="true" name="description" content="The architecture is divided into eight parts, the most important parts are"><meta data-react-helmet="true" property="og:description" content="The architecture is divided into eight parts, the most important parts are"><link data-react-helmet="true" rel="shortcut icon" href="/img/favicon.ico"><link data-react-helmet="true" rel="canonical" href="https://gsmainclusivetechlab.github.io/architecture/overview"><link data-react-helmet="true" rel="alternate" href="https://gsmainclusivetechlab.github.io/architecture/overview" hreflang="en"><link data-react-helmet="true" rel="alternate" href="https://gsmainclusivetechlab.github.io/architecture/overview" hreflang="x-default"><link rel="stylesheet" href="/assets/css/styles.056b3e4b.css">
-<link rel="preload" href="/assets/js/styles.4533a1e7.js" as="script">
-<link rel="preload" href="/assets/js/runtime~main.0768aeed.js" as="script">
-<link rel="preload" href="/assets/js/main.346e0a9d.js" as="script">
-<link rel="preload" href="/assets/js/1.725c34ab.js" as="script">
-<link rel="preload" href="/assets/js/2.d39b7f08.js" as="script">
-<link rel="preload" href="/assets/js/3.76016a2e.js" as="script">
-<link rel="preload" href="/assets/js/1be78505.15f2ead1.js" as="script">
-<link rel="preload" href="/assets/js/45.ecb93c07.js" as="script">
-<link rel="preload" href="/assets/js/935f2afb.538ee593.js" as="script">
-<link rel="preload" href="/assets/js/17896441.0350ecb2.js" as="script">
-<link rel="preload" href="/assets/js/0b1ac180.0af87c34.js" as="script">
+<link rel="alternate" type="application/atom+xml" href="/blog/atom.xml" title="Token Project Blog Atom Feed"><title data-react-helmet="true">Tokenisation Architecture | Token Project</title><meta data-react-helmet="true" property="og:url" content="https://gsmainclusivetechlab.github.io/architecture/overview"><meta data-react-helmet="true" name="docusaurus_locale" content="en"><meta data-react-helmet="true" name="docusaurus_version" content="current"><meta data-react-helmet="true" name="docusaurus_tag" content="docs-default-current"><meta data-react-helmet="true" property="og:title" content="Tokenisation Architecture | Token Project"><meta data-react-helmet="true" name="description" content="The architecture is divided into eight parts, the most important parts are"><meta data-react-helmet="true" property="og:description" content="The architecture is divided into eight parts, the most important parts are"><link data-react-helmet="true" rel="shortcut icon" href="/img/favicon.ico"><link data-react-helmet="true" rel="canonical" href="https://gsmainclusivetechlab.github.io/architecture/overview"><link data-react-helmet="true" rel="alternate" href="https://gsmainclusivetechlab.github.io/architecture/overview" hreflang="en"><link data-react-helmet="true" rel="alternate" href="https://gsmainclusivetechlab.github.io/architecture/overview" hreflang="x-default"><link rel="stylesheet" href="/assets/css/styles.87b6d054.css">
+<link rel="preload" href="/assets/js/styles.23fe32ba.js" as="script">
+<link rel="preload" href="/assets/js/runtime~main.dc0386c7.js" as="script">
+<link rel="preload" href="/assets/js/main.338ca331.js" as="script">
+<link rel="preload" href="/assets/js/1.5dffb019.js" as="script">
+<link rel="preload" href="/assets/js/2.96ffd5d1.js" as="script">
+<link rel="preload" href="/assets/js/43.9899285b.js" as="script">
+<link rel="preload" href="/assets/js/45.fdbcd162.js" as="script">
+<link rel="preload" href="/assets/js/935f2afb.b236a626.js" as="script">
+<link rel="preload" href="/assets/js/17896441.72ecb34a.js" as="script">
+<link rel="preload" href="/assets/js/0b1ac180.30cbafbb.js" as="script">
 </head>
 <body>
 <script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){var t=null;try{t=localStorage.getItem("theme")}catch(t){}return t}();t(null!==e?e:"light")}()</script><div id="__docusaurus">
@@ -29,17 +28,16 @@ Here are stored the agent&#x27;s/merchant&#x27;s operations and notifications as
 mobile will receive.</p></li><li><p><strong>SMS Gateway:</strong> It&#x27;s an Api that will simulate a Mobile Operator Api.
 In this case, this Api is the point of contact for twilio and will send the message to the Engine Api received from Proxy Api.</p></li><li><p><strong>USSD Gateway:</strong> It&#x27;s an Api that will simulate a Mobile Operator Api.
 In this case, this Api have a USSD menu and will send the message to the Engine Api received from Proxy Api.</p></li><li><p><strong>Engine:</strong> This Api is the center of the solution, here we receive all the requests from the Vue Page or Twilio.</p></li><li><p><strong>MMO:</strong> It&#x27;s an Api that will simulate a Mobile Money Operator.
-In here we have all the pending transactions created by the users stored in memory, and we have the logic to manage the users (create/delete account&#x27;s)</p></li><li><p><strong>Token Algorithm Solution:</strong> It&#x27;s an Api where we have all the logic which allows associating a token to a phone number.</p></li><li><p><strong>Token DB Solution:</strong> Where the user information and token are stored.</p></li></ol><h3><a aria-hidden="true" tabindex="-1" class="anchor enhancedAnchor_2LWZ" id="architectural-parts"></a>Architectural Parts<a class="hash-link" href="#architectural-parts" title="Direct link to heading">#</a></h3><p><strong>Figure:</strong> All components of the architecture.</p><div style="text-align:center"><img alt="TryToken architecture" src="/img/TryTokenArchitecture.png"></div><h3><a aria-hidden="true" tabindex="-1" class="anchor enhancedAnchor_2LWZ" id="technological-considerations"></a>Technological Considerations<a class="hash-link" href="#technological-considerations" title="Direct link to heading">#</a></h3><ul><li>The architecture used docker containers and docker-compose to run all the containers  </li><li>The main language used for the project is TypeScript</li><li>The API&#x27;s follow the API Specification 3.0</li></ul></div></article><div class="margin-vert--lg"><nav class="pagination-nav" aria-label="Docs pages navigation"><div class="pagination-nav__item"><a class="pagination-nav__link" href="/docguide"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">« Documentation Guide</div></a></div><div class="pagination-nav__item pagination-nav__item--next"><a class="pagination-nav__link" href="/developer-guide/developers"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Developers »</div></a></div></nav></div></div></div><div class="col col--3"><div class="tableOfContents_35-E thin-scrollbar"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#architectural-parts" class="table-of-contents__link">Architectural Parts</a></li><li><a href="#technological-considerations" class="table-of-contents__link">Technological Considerations</a></li></ul></div></div></div></div></main></div></div><footer class="footer footer--dark"><div class="container"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2022 GSMA. All rights reserved.</div></div></div></footer></div>
-<script src="/assets/js/styles.4533a1e7.js"></script>
-<script src="/assets/js/runtime~main.0768aeed.js"></script>
-<script src="/assets/js/main.346e0a9d.js"></script>
-<script src="/assets/js/1.725c34ab.js"></script>
-<script src="/assets/js/2.d39b7f08.js"></script>
-<script src="/assets/js/3.76016a2e.js"></script>
-<script src="/assets/js/1be78505.15f2ead1.js"></script>
-<script src="/assets/js/45.ecb93c07.js"></script>
-<script src="/assets/js/935f2afb.538ee593.js"></script>
-<script src="/assets/js/17896441.0350ecb2.js"></script>
-<script src="/assets/js/0b1ac180.0af87c34.js"></script>
+In here we have all the pending transactions created by the users stored in memory, and we have the logic to manage the users (create/delete account&#x27;s)</p></li><li><p><strong>Token Algorithm Solution:</strong> It&#x27;s an Api where we have all the logic which allows associating a token to a phone number.</p></li><li><p><strong>Token DB Solution:</strong> Where the user information and token are stored.</p></li></ol><h3 id="architectural-parts">Architectural Parts</h3><p><strong>Figure:</strong> All components of the architecture.</p><div style="text-align:center"><img alt="TryToken architecture" src="/img/TryTokenArchitecture.png"></div><h3 id="technological-considerations">Technological Considerations</h3><ul><li>The architecture used docker containers and docker-compose to run all the containers  </li><li>The main language used for the project is TypeScript</li><li>The API&#x27;s follow the API Specification 3.0</li></ul></div></article><div class="margin-vert--lg"><nav class="pagination-nav" aria-label="Docs pages navigation"><div class="pagination-nav__item"><a class="pagination-nav__link" href="/docguide"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">« Documentation Guide</div></a></div><div class="pagination-nav__item pagination-nav__item--next"><a class="pagination-nav__link" href="/developer-guide/developers"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Developers »</div></a></div></nav></div></div></div><div class="col col--3"><div class="tableOfContents_35-E thin-scrollbar"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#architectural-parts" class="table-of-contents__link">Architectural Parts</a></li><li><a href="#technological-considerations" class="table-of-contents__link">Technological Considerations</a></li></ul></div></div></div></div></main></div></div><footer class="footer footer--dark"><div class="container"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2022 GSMA. All rights reserved.</div></div></div></footer></div>
+<script src="/assets/js/styles.23fe32ba.js"></script>
+<script src="/assets/js/runtime~main.dc0386c7.js"></script>
+<script src="/assets/js/main.338ca331.js"></script>
+<script src="/assets/js/1.5dffb019.js"></script>
+<script src="/assets/js/2.96ffd5d1.js"></script>
+<script src="/assets/js/43.9899285b.js"></script>
+<script src="/assets/js/45.fdbcd162.js"></script>
+<script src="/assets/js/935f2afb.b236a626.js"></script>
+<script src="/assets/js/17896441.72ecb34a.js"></script>
+<script src="/assets/js/0b1ac180.30cbafbb.js"></script>
 </body>
 </html>
