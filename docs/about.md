@@ -5,8 +5,6 @@ sidebar_label: Tokenisation
 slug: /
 ---
 
-Teste
-
 ## Background
 
 Safety concerns for women can be categorised into the physical and mobile-related. In the physical, women’s security can be threatened through mobile theft and feeling unsafe or uncomfortable when purchasing or topping up devices. Furthermore, there can be societal disapproval or harassment as a result of using mobile in public, such as on the streets or public transport.
