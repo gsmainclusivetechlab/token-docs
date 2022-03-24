@@ -28,7 +28,7 @@ Go to the url -> https://token.gsmainclusivetechlab.io/
 
 ### Delete Account
 
-**All accounts are deleted every day at 0 AM**, but if user made one operation on showcase, that account will be deleted after five seconds since the user closes the tab.
+**All accounts are deleted every day at 0 AM**, but if user made one operation on showcase, that account will be deleted after **sixty seconds** since the user closes the tab.
 
 ### Agent/Merchant Simulation
 
