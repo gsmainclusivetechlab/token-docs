@@ -28,6 +28,7 @@ module.exports = {
             '@docusaurus/preset-classic',
             {
                 docs: {
+                    remarkPlugins: [require('mdx-mermaid')],
                     sidebarPath: require.resolve('./src/frontend/sidebars.js'),
                     routeBasePath: '/',
                     // editUrl:

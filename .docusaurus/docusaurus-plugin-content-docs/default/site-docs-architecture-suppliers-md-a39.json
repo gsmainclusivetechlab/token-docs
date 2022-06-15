@@ -8,14 +8,5 @@
   "slug": "/suppliers",
   "permalink": "/suppliers",
   "version": "current",
-  "sidebar_label": "Biometric Suppliers",
-  "sidebar": "someSidebar",
-  "previous": {
-    "title": "Engine",
-    "permalink": "/architecture/engine"
-  },
-  "next": {
-    "title": "Quick Guide",
-    "permalink": "/manual/quickguide"
-  }
+  "sidebar_label": "Biometric Suppliers"
 }

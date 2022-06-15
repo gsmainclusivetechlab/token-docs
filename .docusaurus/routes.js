@@ -3,48 +3,83 @@ import React from 'react';
 import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
 {
+  path: '/__docusaurus/debug',
+  component: ComponentCreator('/__docusaurus/debug','3d6'),
+  exact: true,
+},
+{
+  path: '/__docusaurus/debug/config',
+  component: ComponentCreator('/__docusaurus/debug/config','914'),
+  exact: true,
+},
+{
+  path: '/__docusaurus/debug/content',
+  component: ComponentCreator('/__docusaurus/debug/content','c28'),
+  exact: true,
+},
+{
+  path: '/__docusaurus/debug/globalData',
+  component: ComponentCreator('/__docusaurus/debug/globalData','3cf'),
+  exact: true,
+},
+{
+  path: '/__docusaurus/debug/metadata',
+  component: ComponentCreator('/__docusaurus/debug/metadata','31b'),
+  exact: true,
+},
+{
+  path: '/__docusaurus/debug/registry',
+  component: ComponentCreator('/__docusaurus/debug/registry','0da'),
+  exact: true,
+},
+{
+  path: '/__docusaurus/debug/routes',
+  component: ComponentCreator('/__docusaurus/debug/routes','244'),
+  exact: true,
+},
+{
   path: '/blog',
-  component: ComponentCreator('/blog','6a7'),
+  component: ComponentCreator('/blog','423'),
   exact: true,
 },
 {
   path: '/blog/hello-world',
-  component: ComponentCreator('/blog/hello-world','0c5'),
+  component: ComponentCreator('/blog/hello-world','951'),
   exact: true,
 },
 {
   path: '/blog/hola',
-  component: ComponentCreator('/blog/hola','386'),
+  component: ComponentCreator('/blog/hola','297'),
   exact: true,
 },
 {
   path: '/blog/tags',
-  component: ComponentCreator('/blog/tags','cfb'),
+  component: ComponentCreator('/blog/tags','b48'),
   exact: true,
 },
 {
   path: '/blog/tags/docusaurus',
-  component: ComponentCreator('/blog/tags/docusaurus','94a'),
+  component: ComponentCreator('/blog/tags/docusaurus','ec1'),
   exact: true,
 },
 {
   path: '/blog/tags/facebook',
-  component: ComponentCreator('/blog/tags/facebook','aae'),
+  component: ComponentCreator('/blog/tags/facebook','af9'),
   exact: true,
 },
 {
   path: '/blog/tags/hello',
-  component: ComponentCreator('/blog/tags/hello','11b'),
+  component: ComponentCreator('/blog/tags/hello','bbc'),
   exact: true,
 },
 {
   path: '/blog/tags/hola',
-  component: ComponentCreator('/blog/tags/hola','538'),
+  component: ComponentCreator('/blog/tags/hola','bca'),
   exact: true,
 },
 {
   path: '/blog/welcome',
-  component: ComponentCreator('/blog/welcome','8bd'),
+  component: ComponentCreator('/blog/welcome','1cf'),
   exact: true,
 },
 {
@@ -54,12 +89,12 @@ export default [
 },
 {
   path: '/',
-  component: ComponentCreator('/','93f'),
+  component: ComponentCreator('/','8c2'),
   
   routes: [
 {
   path: '/',
-  component: ComponentCreator('/','38e'),
+  component: ComponentCreator('/','d88'),
   exact: true,
 },
 {
@@ -78,6 +113,11 @@ export default [
   exact: true,
 },
 {
+  path: '/contributors-guide/adopt',
+  component: ComponentCreator('/contributors-guide/adopt','3ca'),
+  exact: true,
+},
+{
   path: '/contributors-guide/contributing',
   component: ComponentCreator('/contributors-guide/contributing','966'),
   exact: true,
@@ -88,28 +128,28 @@ export default [
   exact: true,
 },
 {
+  path: '/developer-guide/developers',
+  component: ComponentCreator('/developer-guide/developers','420'),
+  exact: true,
+},
+{
+  path: '/developer-guide/on-premises-demo',
+  component: ComponentCreator('/developer-guide/on-premises-demo','9a9'),
+  exact: true,
+},
+{
   path: '/docguide',
-  component: ComponentCreator('/docguide','82d'),
+  component: ComponentCreator('/docguide','dfe'),
   exact: true,
 },
 {
-  path: '/installation/introduction',
-  component: ComponentCreator('/installation/introduction','aae'),
-  exact: true,
-},
-{
-  path: '/itl',
-  component: ComponentCreator('/itl','95a'),
+  path: '/introduction/itl',
+  component: ComponentCreator('/introduction/itl','35c'),
   exact: true,
 },
 {
   path: '/landing',
   component: ComponentCreator('/landing','7ab'),
-  exact: true,
-},
-{
-  path: '/manual/quickguide',
-  component: ComponentCreator('/manual/quickguide','df0'),
   exact: true,
 },
 {
@@ -125,6 +165,16 @@ export default [
 {
   path: '/suppliers',
   component: ComponentCreator('/suppliers','fe8'),
+  exact: true,
+},
+{
+  path: '/usecases/quicksetup',
+  component: ComponentCreator('/usecases/quicksetup','06a'),
+  exact: true,
+},
+{
+  path: '/usecases/scenarios',
+  component: ComponentCreator('/usecases/scenarios','6e5'),
   exact: true,
 },
 ]

@@ -8,10 +8,10 @@
           "versionPath": "/",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/eudis/Dev/GSMA/token/token-docs/src/frontend/sidebars.js",
-          "docsDirPath": "/Users/eudis/Dev/GSMA/token/token-docs/docs",
-          "docsDirPathLocalized": "/Users/eudis/Dev/GSMA/token/token-docs/i18n/en/docusaurus-plugin-content-docs/current",
-          "mainDocId": "about",
+          "sidebarFilePath": "/Users/eanjos/Documents/Dev/token/token-docs/src/frontend/sidebars.js",
+          "docsDirPath": "/Users/eanjos/Documents/Dev/token/token-docs/docs",
+          "docsDirPathLocalized": "/Users/eanjos/Documents/Dev/token/token-docs/i18n/en/docusaurus-plugin-content-docs/current",
+          "mainDocId": "introduction/about",
           "sidebars": {
             "someSidebar": [
               {
@@ -21,11 +21,15 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "about"
+                    "id": "introduction/about"
                   },
                   {
                     "type": "doc",
-                    "id": "docguide"
+                    "id": "introduction/itl"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "introduction/docguide"
                   }
                 ]
               },
@@ -37,83 +41,64 @@
                   {
                     "type": "doc",
                     "id": "architecture/overview"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "architecture/app"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "architecture/engine"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "architecture/suppliers"
                   }
                 ]
               },
               {
                 "collapsed": true,
                 "type": "category",
-                "label": "User Manuals",
+                "label": "Use Cases",
                 "items": [
                   {
                     "type": "doc",
-                    "id": "manual/quickguide"
+                    "id": "usecases/quicksetup"
                   },
+                  {
+                    "type": "doc",
+                    "id": "usecases/scenarios"
+                  }
+                ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "User Manual",
+                "items": [
                   {
                     "type": "doc",
                     "id": "manual/usecases"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "manual/tutorials"
                   }
                 ]
               },
               {
                 "collapsed": true,
                 "type": "category",
-                "label": "Contributor's Guide",
+                "label": "Adoption and Contributions",
                 "items": [
                   {
                     "type": "doc",
-                    "id": "contributors-guide/reportingbugs"
+                    "id": "contributors-guide/contributing"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "contributors-guide/adopt"
                   }
                 ]
               }
             ]
           },
           "permalinkToSidebar": {
-            "/": "someSidebar",
-            "/app": "someSidebar",
-            "/architecture/engine": "someSidebar",
             "/architecture/overview": "someSidebar",
-            "/suppliers": "someSidebar",
-            "/contributors-guide/reportingbugs": "someSidebar",
+            "/contributors-guide/adopt": "someSidebar",
+            "/contributors-guide/contributing": "someSidebar",
+            "/": "someSidebar",
             "/docguide": "someSidebar",
-            "/manual/quickguide": "someSidebar",
-            "/manual/tutorials": "someSidebar",
-            "/manual/usecases": "someSidebar"
+            "/introduction/itl": "someSidebar",
+            "/manual/usecases": "someSidebar",
+            "/usecases/quicksetup": "someSidebar",
+            "/usecases/scenarios": "someSidebar"
           },
           "docs": [
-            {
-              "unversionedId": "about",
-              "id": "about",
-              "isDocsHomePage": false,
-              "title": "The Token Project",
-              "description": "Background",
-              "source": "@site/docs/about.md",
-              "slug": "/",
-              "permalink": "/",
-              "version": "current",
-              "sidebar_label": "Tokenisation",
-              "sidebar": "someSidebar",
-              "next": {
-                "title": "Documentation Guide",
-                "permalink": "/docguide"
-              }
-            },
             {
               "unversionedId": "architecture/app",
               "id": "architecture/app",
@@ -124,16 +109,7 @@
               "slug": "/app",
               "permalink": "/app",
               "version": "current",
-              "sidebar_label": "Communication Channels",
-              "sidebar": "someSidebar",
-              "previous": {
-                "title": "B4LL Architecture",
-                "permalink": "/architecture/overview"
-              },
-              "next": {
-                "title": "Engine",
-                "permalink": "/architecture/engine"
-              }
+              "sidebar_label": "Communication Channels"
             },
             {
               "unversionedId": "architecture/engine",
@@ -145,16 +121,7 @@
               "slug": "/architecture/engine",
               "permalink": "/architecture/engine",
               "version": "current",
-              "sidebar_label": "Engine",
-              "sidebar": "someSidebar",
-              "previous": {
-                "title": "Communication Channels",
-                "permalink": "/app"
-              },
-              "next": {
-                "title": "Biometric Suppliers",
-                "permalink": "/suppliers"
-              }
+              "sidebar_label": "Engine"
             },
             {
               "unversionedId": "architecture/landing",
@@ -172,8 +139,8 @@
               "unversionedId": "architecture/overview",
               "id": "architecture/overview",
               "isDocsHomePage": false,
-              "title": "B4LL Architecture",
-              "description": "This section describes the architecture proposed for the B4LL project. The",
+              "title": "Tokenisation Architecture",
+              "description": "The architecture is divided into eight parts, the most important parts are",
               "source": "@site/docs/architecture/overview.md",
               "slug": "/architecture/overview",
               "permalink": "/architecture/overview",
@@ -185,8 +152,8 @@
                 "permalink": "/docguide"
               },
               "next": {
-                "title": "Communication Channels",
-                "permalink": "/app"
+                "title": "Quick Guide",
+                "permalink": "/usecases/quicksetup"
               }
             },
             {
@@ -199,15 +166,23 @@
               "slug": "/suppliers",
               "permalink": "/suppliers",
               "version": "current",
-              "sidebar_label": "Biometric Suppliers",
+              "sidebar_label": "Biometric Suppliers"
+            },
+            {
+              "unversionedId": "contributors-guide/adopt",
+              "id": "contributors-guide/adopt",
+              "isDocsHomePage": false,
+              "title": "Adopt",
+              "description": "This section helps you getting started through the ejection process of the modules included on this project so that you can adopt them on your stack.",
+              "source": "@site/docs/contributors-guide/adopt.md",
+              "slug": "/contributors-guide/adopt",
+              "permalink": "/contributors-guide/adopt",
+              "version": "current",
+              "sidebar_label": "Get Started",
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Engine",
-                "permalink": "/architecture/engine"
-              },
-              "next": {
-                "title": "Quick Guide",
-                "permalink": "/manual/quickguide"
+                "title": "Contributing",
+                "permalink": "/contributors-guide/contributing"
               }
             },
             {
@@ -215,11 +190,21 @@
               "id": "contributors-guide/contributing",
               "isDocsHomePage": false,
               "title": "Contributing",
+              "description": "Contributing Guidelines",
               "source": "@site/docs/contributors-guide/contributing.md",
               "slug": "/contributors-guide/contributing",
               "permalink": "/contributors-guide/contributing",
               "version": "current",
-              "sidebar_label": "Contributing"
+              "sidebar_label": "Contributing",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Use Cases",
+                "permalink": "/manual/usecases"
+              },
+              "next": {
+                "title": "Adopt",
+                "permalink": "/contributors-guide/adopt"
+              }
             },
             {
               "unversionedId": "contributors-guide/reportingbugs",
@@ -231,76 +216,89 @@
               "slug": "/contributors-guide/reportingbugs",
               "permalink": "/contributors-guide/reportingbugs",
               "version": "current",
-              "sidebar_label": "Reporting bugs",
+              "sidebar_label": "Reporting bugs"
+            },
+            {
+              "unversionedId": "developer-guide/developers",
+              "id": "developer-guide/developers",
+              "isDocsHomePage": false,
+              "title": "Developers",
+              "description": "- Docker Compose Version: +1.29",
+              "source": "@site/docs/developer-guide/developers.md",
+              "slug": "/developer-guide/developers",
+              "permalink": "/developer-guide/developers",
+              "version": "current",
+              "sidebar_label": "Developers"
+            },
+            {
+              "unversionedId": "developer-guide/on-premises-demo",
+              "id": "developer-guide/on-premises-demo",
+              "isDocsHomePage": false,
+              "title": "On Premises Demo",
+              "description": "- Docker Compose Version: +1.29",
+              "source": "@site/docs/developer-guide/on-premises-demo.md",
+              "slug": "/developer-guide/on-premises-demo",
+              "permalink": "/developer-guide/on-premises-demo",
+              "version": "current",
+              "sidebar_label": "On Premises Demo"
+            },
+            {
+              "unversionedId": "introduction/about",
+              "id": "introduction/about",
+              "isDocsHomePage": false,
+              "title": "The Token Project",
+              "description": "Safety concerns for women can be categorised into the physical and mobile-related. In the physical, women’s security can be threatened through mobile theft and feeling unsafe or uncomfortable when purchasing or topping up devices. Furthermore, there can be societal disapproval or harassment as a result of using mobile in public, such as on the streets or public transport.",
+              "source": "@site/docs/introduction/about.md",
+              "slug": "/",
+              "permalink": "/",
+              "version": "current",
+              "sidebar_label": "Tokenisation",
               "sidebar": "someSidebar",
-              "previous": {
-                "title": "Tutorials",
-                "permalink": "/manual/tutorials"
+              "next": {
+                "title": "GSMA Inclusive Tech Lab",
+                "permalink": "/introduction/itl"
               }
             },
             {
-              "unversionedId": "docguide",
-              "id": "docguide",
+              "unversionedId": "introduction/docguide",
+              "id": "introduction/docguide",
               "isDocsHomePage": false,
               "title": "Documentation Guide",
-              "description": "REVIEW AND CREATE A GUIDE WHEN ALL THE DOCUMENTATION IS FINALISED",
-              "source": "@site/docs/docguide.mdx",
+              "description": "The main purpose of this documentation is to guide users and contributors about",
+              "source": "@site/docs/introduction/docguide.mdx",
               "slug": "/docguide",
               "permalink": "/docguide",
               "version": "current",
               "sidebar_label": "Documentation Guide",
               "sidebar": "someSidebar",
               "previous": {
-                "title": "The Token Project",
-                "permalink": "/"
+                "title": "GSMA Inclusive Tech Lab",
+                "permalink": "/introduction/itl"
               },
               "next": {
-                "title": "B4LL Architecture",
+                "title": "Tokenisation Architecture",
                 "permalink": "/architecture/overview"
               }
             },
             {
-              "unversionedId": "installation/introduction",
-              "id": "installation/introduction",
-              "isDocsHomePage": false,
-              "title": "Installation",
-              "source": "@site/docs/installation/introduction.md",
-              "slug": "/installation/introduction",
-              "permalink": "/installation/introduction",
-              "version": "current",
-              "sidebar_label": "Introduction"
-            },
-            {
-              "unversionedId": "itl",
-              "id": "itl",
+              "unversionedId": "introduction/itl",
+              "id": "introduction/itl",
               "isDocsHomePage": false,
               "title": "GSMA Inclusive Tech Lab",
               "description": "In developed and developing markets alike, societies are becoming increasingly",
-              "source": "@site/docs/itl.mdx",
-              "slug": "/itl",
-              "permalink": "/itl",
+              "source": "@site/docs/introduction/itl.mdx",
+              "slug": "/introduction/itl",
+              "permalink": "/introduction/itl",
               "version": "current",
-              "sidebar_label": "Inclusive Tech Lab"
-            },
-            {
-              "unversionedId": "manual/quickguide",
-              "id": "manual/quickguide",
-              "isDocsHomePage": false,
-              "title": "Quick Guide",
-              "description": "This guide goes through the steps needed to register and use our demo.",
-              "source": "@site/docs/manual/quickguide.md",
-              "slug": "/manual/quickguide",
-              "permalink": "/manual/quickguide",
-              "version": "current",
-              "sidebar_label": "Quick Guide",
+              "sidebar_label": "Inclusive Tech Lab",
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Biometric Suppliers",
-                "permalink": "/suppliers"
+                "title": "The Token Project",
+                "permalink": "/"
               },
               "next": {
-                "title": "Use Cases",
-                "permalink": "/manual/usecases"
+                "title": "Documentation Guide",
+                "permalink": "/docguide"
               }
             },
             {
@@ -313,23 +311,14 @@
               "slug": "/manual/tutorials",
               "permalink": "/manual/tutorials",
               "version": "current",
-              "sidebar_label": "Tutorials",
-              "sidebar": "someSidebar",
-              "previous": {
-                "title": "Use Cases",
-                "permalink": "/manual/usecases"
-              },
-              "next": {
-                "title": "Reporting bugs",
-                "permalink": "/contributors-guide/reportingbugs"
-              }
+              "sidebar_label": "Tutorials"
             },
             {
               "unversionedId": "manual/usecases",
               "id": "manual/usecases",
               "isDocsHomePage": false,
               "title": "Use Cases",
-              "description": "ADD HERE CONTENT FOR USE CASES",
+              "description": "Using Virtual Mobile Simulation",
               "source": "@site/docs/manual/usecases.md",
               "slug": "/manual/usecases",
               "permalink": "/manual/usecases",
@@ -337,12 +326,54 @@
               "sidebar_label": "Use Cases",
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Quick Guide",
-                "permalink": "/manual/quickguide"
+                "title": "Scenarios and Flows",
+                "permalink": "/usecases/scenarios"
               },
               "next": {
-                "title": "Tutorials",
-                "permalink": "/manual/tutorials"
+                "title": "Contributing",
+                "permalink": "/contributors-guide/contributing"
+              }
+            },
+            {
+              "unversionedId": "usecases/quicksetup",
+              "id": "usecases/quicksetup",
+              "isDocsHomePage": false,
+              "title": "Quick Guide",
+              "description": "This guide goes through the steps needed to register and use our demo.",
+              "source": "@site/docs/usecases/quickguide.md",
+              "slug": "/usecases/quicksetup",
+              "permalink": "/usecases/quicksetup",
+              "version": "current",
+              "sidebar_label": "Quick Guide",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Tokenisation Architecture",
+                "permalink": "/architecture/overview"
+              },
+              "next": {
+                "title": "Scenarios and Flows",
+                "permalink": "/usecases/scenarios"
+              }
+            },
+            {
+              "unversionedId": "usecases/scenarios",
+              "id": "usecases/scenarios",
+              "isDocsHomePage": false,
+              "title": "Scenarios and Flows",
+              "description": "Use Cases",
+              "source": "@site/docs/usecases/scenarios.md",
+              "slug": "/usecases/scenarios",
+              "permalink": "/usecases/scenarios",
+              "version": "current",
+              "sidebar_label": "Scenarios and Flows",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Quick Guide",
+                "permalink": "/usecases/quicksetup"
+              },
+              "next": {
+                "title": "Use Cases",
+                "permalink": "/manual/usecases"
               }
             }
           ]

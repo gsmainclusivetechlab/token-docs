@@ -2,8 +2,8 @@
   "unversionedId": "architecture/overview",
   "id": "architecture/overview",
   "isDocsHomePage": false,
-  "title": "B4LL Architecture",
-  "description": "This section describes the architecture proposed for the B4LL project. The",
+  "title": "Tokenisation Architecture",
+  "description": "The architecture is divided into eight parts, the most important parts are",
   "source": "@site/docs/architecture/overview.md",
   "slug": "/architecture/overview",
   "permalink": "/architecture/overview",
@@ -15,7 +15,7 @@
     "permalink": "/docguide"
   },
   "next": {
-    "title": "Communication Channels",
-    "permalink": "/app"
+    "title": "Quick Guide",
+    "permalink": "/usecases/quicksetup"
   }
 }

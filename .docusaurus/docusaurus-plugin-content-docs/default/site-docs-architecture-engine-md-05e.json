@@ -8,14 +8,5 @@
   "slug": "/architecture/engine",
   "permalink": "/architecture/engine",
   "version": "current",
-  "sidebar_label": "Engine",
-  "sidebar": "someSidebar",
-  "previous": {
-    "title": "Communication Channels",
-    "permalink": "/app"
-  },
-  "next": {
-    "title": "Biometric Suppliers",
-    "permalink": "/suppliers"
-  }
+  "sidebar_label": "Engine"
 }

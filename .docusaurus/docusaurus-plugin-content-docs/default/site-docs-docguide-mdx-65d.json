@@ -3,7 +3,7 @@
   "id": "docguide",
   "isDocsHomePage": false,
   "title": "Documentation Guide",
-  "description": "REVIEW AND CREATE A GUIDE WHEN ALL THE DOCUMENTATION IS FINALISED",
+  "description": "The main purpose of this documentation is to guide users and contributors about",
   "source": "@site/docs/docguide.mdx",
   "slug": "/docguide",
   "permalink": "/docguide",
@@ -15,7 +15,7 @@
     "permalink": "/"
   },
   "next": {
-    "title": "B4LL Architecture",
+    "title": "Tokenisation Architecture",
     "permalink": "/architecture/overview"
   }
 }

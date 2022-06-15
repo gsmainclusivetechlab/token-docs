@@ -8,14 +8,5 @@
   "slug": "/app",
   "permalink": "/app",
   "version": "current",
-  "sidebar_label": "Communication Channels",
-  "sidebar": "someSidebar",
-  "previous": {
-    "title": "B4LL Architecture",
-    "permalink": "/architecture/overview"
-  },
-  "next": {
-    "title": "Engine",
-    "permalink": "/architecture/engine"
-  }
+  "sidebar_label": "Communication Channels"
 }

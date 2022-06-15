@@ -46,17 +46,20 @@ export default {
       "@docusaurus/preset-classic",
       {
         "docs": {
-          "sidebarPath": "/Users/eudis/Dev/GSMA/token/token-docs/src/frontend/sidebars.js",
+          "remarkPlugins": [
+            null
+          ],
+          "sidebarPath": "/Users/eanjos/Documents/Dev/token/token-docs/src/frontend/sidebars.js",
           "routeBasePath": "/"
         },
         "theme": {
-          "customCss": "/Users/eudis/Dev/GSMA/token/token-docs/src/frontend/custom.css"
+          "customCss": "/Users/eanjos/Documents/Dev/token/token-docs/src/frontend/custom.css"
         }
       }
     ]
   ],
   "plugins": [
-    "/Users/eudis/Dev/GSMA/token/token-docs/src/frontend/webpack.js"
+    "/Users/eanjos/Documents/Dev/token/token-docs/src/frontend/webpack.js"
   ],
   "baseUrlIssueBanner": true,
   "i18n": {

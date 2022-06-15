@@ -3,9 +3,19 @@
   "id": "contributors-guide/contributing",
   "isDocsHomePage": false,
   "title": "Contributing",
+  "description": "Contributing Guidelines",
   "source": "@site/docs/contributors-guide/contributing.md",
   "slug": "/contributors-guide/contributing",
   "permalink": "/contributors-guide/contributing",
   "version": "current",
-  "sidebar_label": "Contributing"
+  "sidebar_label": "Contributing",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Use Cases",
+    "permalink": "/manual/usecases"
+  },
+  "next": {
+    "title": "Adopt",
+    "permalink": "/contributors-guide/adopt"
+  }
 }

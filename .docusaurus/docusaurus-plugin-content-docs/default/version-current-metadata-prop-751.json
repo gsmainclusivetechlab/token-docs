@@ -17,6 +17,11 @@
           },
           {
             "type": "link",
+            "label": "Inclusive Tech Lab",
+            "href": "/introduction/itl"
+          },
+          {
+            "type": "link",
             "label": "Documentation Guide",
             "href": "/docguide"
           }
@@ -31,70 +36,66 @@
             "type": "link",
             "label": "Overview",
             "href": "/architecture/overview"
-          },
-          {
-            "type": "link",
-            "label": "Communication Channels",
-            "href": "/app"
-          },
-          {
-            "type": "link",
-            "label": "Engine",
-            "href": "/architecture/engine"
-          },
-          {
-            "type": "link",
-            "label": "Biometric Suppliers",
-            "href": "/suppliers"
           }
         ]
       },
       {
         "collapsed": true,
         "type": "category",
-        "label": "User Manuals",
+        "label": "Use Cases",
         "items": [
           {
             "type": "link",
             "label": "Quick Guide",
-            "href": "/manual/quickguide"
+            "href": "/usecases/quicksetup"
           },
           {
             "type": "link",
-            "label": "Use Cases",
-            "href": "/manual/usecases"
-          },
-          {
-            "type": "link",
-            "label": "Tutorials",
-            "href": "/manual/tutorials"
+            "label": "Scenarios and Flows",
+            "href": "/usecases/scenarios"
           }
         ]
       },
       {
         "collapsed": true,
         "type": "category",
-        "label": "Contributor's Guide",
+        "label": "User Manual",
         "items": [
           {
             "type": "link",
-            "label": "Reporting bugs",
-            "href": "/contributors-guide/reportingbugs"
+            "label": "Use Cases",
+            "href": "/manual/usecases"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Adoption and Contributions",
+        "items": [
+          {
+            "type": "link",
+            "label": "Contributing",
+            "href": "/contributors-guide/contributing"
+          },
+          {
+            "type": "link",
+            "label": "Get Started",
+            "href": "/contributors-guide/adopt"
           }
         ]
       }
     ]
   },
   "permalinkToSidebar": {
-    "/": "someSidebar",
-    "/app": "someSidebar",
-    "/architecture/engine": "someSidebar",
     "/architecture/overview": "someSidebar",
-    "/suppliers": "someSidebar",
-    "/contributors-guide/reportingbugs": "someSidebar",
+    "/contributors-guide/adopt": "someSidebar",
+    "/contributors-guide/contributing": "someSidebar",
+    "/": "someSidebar",
     "/docguide": "someSidebar",
-    "/manual/quickguide": "someSidebar",
-    "/manual/tutorials": "someSidebar",
-    "/manual/usecases": "someSidebar"
+    "/introduction/itl": "someSidebar",
+    "/manual/usecases": "someSidebar",
+    "/usecases/quicksetup": "someSidebar",
+    "/usecases/scenarios": "someSidebar"
   }
 }

@@ -3,7 +3,7 @@
   "id": "manual/usecases",
   "isDocsHomePage": false,
   "title": "Use Cases",
-  "description": "ADD HERE CONTENT FOR USE CASES",
+  "description": "Using Virtual Mobile Simulation",
   "source": "@site/docs/manual/usecases.md",
   "slug": "/manual/usecases",
   "permalink": "/manual/usecases",
@@ -11,11 +11,11 @@
   "sidebar_label": "Use Cases",
   "sidebar": "someSidebar",
   "previous": {
-    "title": "Quick Guide",
-    "permalink": "/manual/quickguide"
+    "title": "Scenarios and Flows",
+    "permalink": "/usecases/scenarios"
   },
   "next": {
-    "title": "Tutorials",
-    "permalink": "/manual/tutorials"
+    "title": "Contributing",
+    "permalink": "/contributors-guide/contributing"
   }
 }

@@ -8,10 +8,5 @@
   "slug": "/contributors-guide/reportingbugs",
   "permalink": "/contributors-guide/reportingbugs",
   "version": "current",
-  "sidebar_label": "Reporting bugs",
-  "sidebar": "someSidebar",
-  "previous": {
-    "title": "Tutorials",
-    "permalink": "/manual/tutorials"
-  }
+  "sidebar_label": "Reporting bugs"
 }
