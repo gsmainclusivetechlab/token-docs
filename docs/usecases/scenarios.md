@@ -3,19 +3,7 @@ title: Scenarios and Flows
 sidebar_label: Scenarios and Flows
 ---
 
-# **Use Cases**
-
-The Tokenisation Project has currently 3 different mobile money Use Cases (UCs): **Cash-in, Cash-out, and Payments**.  Each use case embraces several scenarios to approach the different possible paths. These UC were selected after collecting information with Mobile Money Operators and based on the importance of the use of token on these cases. Besides these main use cases, the scenarios to create a token and delete were also create based on the use cases: **Get Token and Delete Token**.
-
-<aside>
-📬 If anyone wish to propose a new Use Case or a new User Scenario. Please send as an email trough the token page website.
-
-</aside>
-
-<aside>
-🎯 Remember that all use cases and scenarios described here can be easily customise to adapt to any mobile operator needs.
-
-</aside>
+The Tokenisation Project has currently 3 different mobile money Use Cases (UCs): **Cash-in, Cash-out**, and **Payments**.  Each use case embraces several scenarios to approach the different possible paths. These UC were selected after collecting information with Mobile Money Operators and based on the importance of the use of token on these cases. Besides these main use cases, the scenarios to create a token and delete were also create based on the use cases: **Get Token and Delete Token**.
 
 To execute the use cases, the user can be play two different roles in the interface:
 
@@ -24,6 +12,11 @@ To execute the use cases, the user can be play two different roles in the interf
 **Mobile Money Agent:** The user can also play the role of an agent, using the web interface to approve or reject transactions, or to start transactions in agent-initiated or merchant-initiated scenarios.
 
 Following you can see some examples of the use case scenarios and diagram flows. It is important to mention that there are several other possibilities to test this show case. in the section list of use case scenarios you can check it out the many paths the customer can take.
+
+📬 - If anyone wish to propose a new Use Case or a new User Scenario. Please send as an email trough the token page website.
+
+🎯 - Remember that all use cases and scenarios described here can be easily customise to adapt to any mobile operator needs.
+
 
 ## **Get Token**
 

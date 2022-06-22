@@ -11,11 +11,11 @@
   "sidebar_label": "Quick Guide",
   "sidebar": "someSidebar",
   "previous": {
-    "title": "Tokenisation Architecture",
-    "permalink": "/architecture/overview"
+    "title": "List of Scenarios",
+    "permalink": "/usecases/scenarioslist"
   },
   "next": {
-    "title": "Use Cases 2",
-    "permalink": "/manual/usecases2"
+    "title": "Use Cases",
+    "permalink": "/manual/usecases"
   }
 }

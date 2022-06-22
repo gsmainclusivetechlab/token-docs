@@ -11,8 +11,8 @@
   "sidebar_label": "Use Cases",
   "sidebar": "someSidebar",
   "previous": {
-    "title": "Scenarios and Flows",
-    "permalink": "/usecases/scenarios"
+    "title": "Virtual Simulation",
+    "permalink": "/manual/virtualsimulation"
   },
   "next": {
     "title": "Contributing",

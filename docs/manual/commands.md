@@ -1,18 +1,24 @@
 ---
-title: Use Cases
-sidebar_label: Use Cases
+title: Commands
+sidebar_label: Commands
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
+Below, we present all the commands necessary to test the many user stories of our token solution. 
+
+:::note PIN Number
+During the simulation, a PIN will be requested to the user to confirm operations. The PIN provided below is the only accepted value.
+**Default PIN: 1234**
+:::
+
+:::note Merchant Number
+A Merchant code identifier is also required for the Merchant payment use cases, and the only accepted value is the one below.
+**Merchant Code Available: 4321**
+:::
+
 ## Using Virtual Mobile Simulation
-
-To choose between SMS Mode or USSD Mode, the user need to choose the option on Customer Settings.
-
-<div style={{width: '50%'}}>
-<img alt="customer_settings" src={useBaseUrl('img/customer_settings.png')}/>
-</div>
-
+-----
 ### Get Token
 #### SMS Mode
 1. Write `GET TOKEN` on the input field.
@@ -67,7 +73,7 @@ To choose between SMS Mode or USSD Mode, the user need to choose the option on C
     - USSD Mode - Write the short code `*165*6*1234#` on input field.
 
 ## Using Live Token Showcase
-
+----
 ### Get Token
 #### SMS Mode
 1. Send the following SMS to +447401232937 - `GET TOKEN`.
@@ -110,4 +116,4 @@ To choose between SMS Mode or USSD Mode, the user need to choose the option on C
 1. Create an operation in Agent Operation Settings by choosing the Merchant-Payment option in the Operation field, then accept this operation with the Merchant.
 2. If you have the following option selected:
     - SMS Mode - Send the following SMS to +447401232937 - `PIN {VALUE}`.
-    - USSD Mode - Send the following SMS to +447401232937 - `*165*6*1234#`. 
+    - USSD Mode - Send the following SMS to +447401232937 - `*165*6*1234#`.

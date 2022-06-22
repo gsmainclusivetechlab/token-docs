@@ -51,11 +51,11 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "usecases/quicksetup"
+                    "id": "usecases/scenarios"
                   },
                   {
                     "type": "doc",
-                    "id": "usecases/scenarios"
+                    "id": "usecases/scenarioslist"
                   }
                 ]
               },
@@ -66,7 +66,19 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "manual/usecases"
+                    "id": "manual/intro"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "manual/virtualsimulation"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "manual/livesimulation"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "manual/commands"
                   }
                 ]
               },
@@ -94,9 +106,12 @@
             "/": "someSidebar",
             "/docguide": "someSidebar",
             "/introduction/itl": "someSidebar",
-            "/manual/usecases": "someSidebar",
-            "/usecases/quicksetup": "someSidebar",
-            "/usecases/scenarios": "someSidebar"
+            "/manual/commands": "someSidebar",
+            "/manual/intro": "someSidebar",
+            "/manual/livesimulation": "someSidebar",
+            "/manual/virtualsimulation": "someSidebar",
+            "/usecases/scenarios": "someSidebar",
+            "/usecases/scenarioslist": "someSidebar"
           },
           "docs": [
             {
@@ -152,8 +167,8 @@
                 "permalink": "/docguide"
               },
               "next": {
-                "title": "Quick Guide",
-                "permalink": "/usecases/quicksetup"
+                "title": "Scenarios and Flows",
+                "permalink": "/usecases/scenarios"
               }
             },
             {
@@ -198,8 +213,8 @@
               "sidebar_label": "Contributing",
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Use Cases",
-                "permalink": "/manual/usecases"
+                "title": "Commands",
+                "permalink": "/manual/commands"
               },
               "next": {
                 "title": "Adopt",
@@ -302,6 +317,69 @@
               }
             },
             {
+              "unversionedId": "manual/commands",
+              "id": "manual/commands",
+              "isDocsHomePage": false,
+              "title": "Commands",
+              "description": "Below, we present all the commands necessary to test the many user stories of our token solution.",
+              "source": "@site/docs/manual/commands.md",
+              "slug": "/manual/commands",
+              "permalink": "/manual/commands",
+              "version": "current",
+              "sidebar_label": "Commands",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Live Simulation",
+                "permalink": "/manual/livesimulation"
+              },
+              "next": {
+                "title": "Contributing",
+                "permalink": "/contributors-guide/contributing"
+              }
+            },
+            {
+              "unversionedId": "manual/intro",
+              "id": "manual/intro",
+              "isDocsHomePage": false,
+              "title": "Introduction",
+              "description": "The Tokenaisation asset has two different simulation environments to allow you to test the asset:",
+              "source": "@site/docs/manual/intro.md",
+              "slug": "/manual/intro",
+              "permalink": "/manual/intro",
+              "version": "current",
+              "sidebar_label": "Introduction",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "List of Scenarios",
+                "permalink": "/usecases/scenarioslist"
+              },
+              "next": {
+                "title": "Virtual Simulation",
+                "permalink": "/manual/virtualsimulation"
+              }
+            },
+            {
+              "unversionedId": "manual/livesimulation",
+              "id": "manual/livesimulation",
+              "isDocsHomePage": false,
+              "title": "Live Simulation",
+              "description": "The Live Simulation allows the users to experience a realistic approach, testing various use cases using a real mobile device. This environment allows an interaction closer to the real life and lets the user to exchange direct messages with the system. The interface for Agent and Merchant are still simulated online.",
+              "source": "@site/docs/manual/livesimulation.md",
+              "slug": "/manual/livesimulation",
+              "permalink": "/manual/livesimulation",
+              "version": "current",
+              "sidebar_label": "Live Simulation",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Virtual Simulation",
+                "permalink": "/manual/virtualsimulation"
+              },
+              "next": {
+                "title": "Commands",
+                "permalink": "/manual/commands"
+              }
+            },
+            {
               "unversionedId": "manual/tutorials",
               "id": "manual/tutorials",
               "isDocsHomePage": false,
@@ -314,45 +392,24 @@
               "sidebar_label": "Tutorials"
             },
             {
-              "unversionedId": "manual/usecases",
-              "id": "manual/usecases",
+              "unversionedId": "manual/virtualsimulation",
+              "id": "manual/virtualsimulation",
               "isDocsHomePage": false,
-              "title": "Use Cases",
-              "description": "Using Virtual Mobile Simulation",
-              "source": "@site/docs/manual/usecases.md",
-              "slug": "/manual/usecases",
-              "permalink": "/manual/usecases",
+              "title": "Virtual Simulation",
+              "description": "The Virtual Simulation allows the users to test various use cases without any extra device, using only the browser on their computer or the browser on a mobile phone. Although less realistic than the live environment, the virtual simulation allows faster testing, covering all the necessary characteristics for understanding the use of mobile tokens through SMS or USSD commands.",
+              "source": "@site/docs/manual/virtualsimulation.md",
+              "slug": "/manual/virtualsimulation",
+              "permalink": "/manual/virtualsimulation",
               "version": "current",
-              "sidebar_label": "Use Cases",
+              "sidebar_label": "Virtual Simulation",
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Scenarios and Flows",
-                "permalink": "/usecases/scenarios"
+                "title": "Introduction",
+                "permalink": "/manual/intro"
               },
               "next": {
-                "title": "Contributing",
-                "permalink": "/contributors-guide/contributing"
-              }
-            },
-            {
-              "unversionedId": "usecases/quicksetup",
-              "id": "usecases/quicksetup",
-              "isDocsHomePage": false,
-              "title": "Quick Guide",
-              "description": "This guide goes through the steps needed to register and use our demo.",
-              "source": "@site/docs/usecases/quickguide.md",
-              "slug": "/usecases/quicksetup",
-              "permalink": "/usecases/quicksetup",
-              "version": "current",
-              "sidebar_label": "Quick Guide",
-              "sidebar": "someSidebar",
-              "previous": {
-                "title": "Tokenisation Architecture",
-                "permalink": "/architecture/overview"
-              },
-              "next": {
-                "title": "Scenarios and Flows",
-                "permalink": "/usecases/scenarios"
+                "title": "Live Simulation",
+                "permalink": "/manual/livesimulation"
               }
             },
             {
@@ -360,7 +417,7 @@
               "id": "usecases/scenarios",
               "isDocsHomePage": false,
               "title": "Scenarios and Flows",
-              "description": "Use Cases",
+              "description": "The Tokenisation Project has currently 3 different mobile money Use Cases (UCs) Get Token and Delete Token.",
               "source": "@site/docs/usecases/scenarios.md",
               "slug": "/usecases/scenarios",
               "permalink": "/usecases/scenarios",
@@ -368,12 +425,33 @@
               "sidebar_label": "Scenarios and Flows",
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Quick Guide",
-                "permalink": "/usecases/quicksetup"
+                "title": "Tokenisation Architecture",
+                "permalink": "/architecture/overview"
               },
               "next": {
-                "title": "Use Cases",
-                "permalink": "/manual/usecases"
+                "title": "List of Scenarios",
+                "permalink": "/usecases/scenarioslist"
+              }
+            },
+            {
+              "unversionedId": "usecases/scenarioslist",
+              "id": "usecases/scenarioslist",
+              "isDocsHomePage": false,
+              "title": "List of Scenarios",
+              "description": "| Test Case                                     | ID                   | Type | Mode | Use Case |",
+              "source": "@site/docs/usecases/scenarioslist.md",
+              "slug": "/usecases/scenarioslist",
+              "permalink": "/usecases/scenarioslist",
+              "version": "current",
+              "sidebar_label": "List of Scenarios",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Scenarios and Flows",
+                "permalink": "/usecases/scenarios"
+              },
+              "next": {
+                "title": "Introduction",
+                "permalink": "/manual/intro"
               }
             }
           ]

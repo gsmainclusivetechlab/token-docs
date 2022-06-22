@@ -69,22 +69,37 @@
               "sidebar": "someSidebar"
             },
             {
+              "id": "manual/commands",
+              "path": "/manual/commands",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "manual/intro",
+              "path": "/manual/intro",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "manual/livesimulation",
+              "path": "/manual/livesimulation",
+              "sidebar": "someSidebar"
+            },
+            {
               "id": "manual/tutorials",
               "path": "/manual/tutorials"
             },
             {
-              "id": "manual/usecases",
-              "path": "/manual/usecases",
-              "sidebar": "someSidebar"
-            },
-            {
-              "id": "usecases/quicksetup",
-              "path": "/usecases/quicksetup",
+              "id": "manual/virtualsimulation",
+              "path": "/manual/virtualsimulation",
               "sidebar": "someSidebar"
             },
             {
               "id": "usecases/scenarios",
               "path": "/usecases/scenarios",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "usecases/scenarioslist",
+              "path": "/usecases/scenarioslist",
               "sidebar": "someSidebar"
             }
           ]

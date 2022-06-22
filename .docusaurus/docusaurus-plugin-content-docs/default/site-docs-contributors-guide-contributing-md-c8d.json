@@ -11,8 +11,8 @@
   "sidebar_label": "Contributing",
   "sidebar": "someSidebar",
   "previous": {
-    "title": "Use Cases",
-    "permalink": "/manual/usecases"
+    "title": "Commands",
+    "permalink": "/manual/commands"
   },
   "next": {
     "title": "Adopt",

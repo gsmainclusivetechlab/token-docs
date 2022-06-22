@@ -89,7 +89,7 @@ export default [
 },
 {
   path: '/',
-  component: ComponentCreator('/','8c2'),
+  component: ComponentCreator('/','e71'),
   
   routes: [
 {
@@ -153,13 +153,28 @@ export default [
   exact: true,
 },
 {
+  path: '/manual/commands',
+  component: ComponentCreator('/manual/commands','fb4'),
+  exact: true,
+},
+{
+  path: '/manual/intro',
+  component: ComponentCreator('/manual/intro','978'),
+  exact: true,
+},
+{
+  path: '/manual/livesimulation',
+  component: ComponentCreator('/manual/livesimulation','0e7'),
+  exact: true,
+},
+{
   path: '/manual/tutorials',
   component: ComponentCreator('/manual/tutorials','564'),
   exact: true,
 },
 {
-  path: '/manual/usecases',
-  component: ComponentCreator('/manual/usecases','37d'),
+  path: '/manual/virtualsimulation',
+  component: ComponentCreator('/manual/virtualsimulation','f42'),
   exact: true,
 },
 {
@@ -168,13 +183,13 @@ export default [
   exact: true,
 },
 {
-  path: '/usecases/quicksetup',
-  component: ComponentCreator('/usecases/quicksetup','06a'),
+  path: '/usecases/scenarios',
+  component: ComponentCreator('/usecases/scenarios','6e5'),
   exact: true,
 },
 {
-  path: '/usecases/scenarios',
-  component: ComponentCreator('/usecases/scenarios','6e5'),
+  path: '/usecases/scenarioslist',
+  component: ComponentCreator('/usecases/scenarioslist','2b4'),
   exact: true,
 },
 ]

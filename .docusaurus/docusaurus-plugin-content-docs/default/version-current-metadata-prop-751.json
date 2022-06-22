@@ -46,13 +46,13 @@
         "items": [
           {
             "type": "link",
-            "label": "Quick Guide",
-            "href": "/usecases/quicksetup"
+            "label": "Scenarios and Flows",
+            "href": "/usecases/scenarios"
           },
           {
             "type": "link",
-            "label": "Scenarios and Flows",
-            "href": "/usecases/scenarios"
+            "label": "List of Scenarios",
+            "href": "/usecases/scenarioslist"
           }
         ]
       },
@@ -63,8 +63,23 @@
         "items": [
           {
             "type": "link",
-            "label": "Use Cases",
-            "href": "/manual/usecases"
+            "label": "Introduction",
+            "href": "/manual/intro"
+          },
+          {
+            "type": "link",
+            "label": "Virtual Simulation",
+            "href": "/manual/virtualsimulation"
+          },
+          {
+            "type": "link",
+            "label": "Live Simulation",
+            "href": "/manual/livesimulation"
+          },
+          {
+            "type": "link",
+            "label": "Commands",
+            "href": "/manual/commands"
           }
         ]
       },
@@ -94,8 +109,11 @@
     "/": "someSidebar",
     "/docguide": "someSidebar",
     "/introduction/itl": "someSidebar",
-    "/manual/usecases": "someSidebar",
-    "/usecases/quicksetup": "someSidebar",
-    "/usecases/scenarios": "someSidebar"
+    "/manual/commands": "someSidebar",
+    "/manual/intro": "someSidebar",
+    "/manual/livesimulation": "someSidebar",
+    "/manual/virtualsimulation": "someSidebar",
+    "/usecases/scenarios": "someSidebar",
+    "/usecases/scenarioslist": "someSidebar"
   }
 }

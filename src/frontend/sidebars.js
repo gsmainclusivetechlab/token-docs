@@ -9,11 +9,14 @@ module.exports = {
             'architecture/overview',
         ],
         'Use Cases': [
-            'usecases/quicksetup',
-            'usecases/scenarios'
+            'usecases/scenarios',
+            'usecases/scenarioslist',
         ],
         'User Manual': [
-            'manual/usecases'
+            'manual/intro', 
+            'manual/virtualsimulation',    
+            'manual/livesimulation',
+            'manual/commands'
         ],
         'Adoption and Contributions': [
             'contributors-guide/contributing',
