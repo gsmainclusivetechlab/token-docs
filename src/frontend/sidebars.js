@@ -18,9 +18,9 @@ module.exports = {
             'manual/livesimulation',
             'manual/commands'
         ],
-        'Adoption and Contributions': [
-            'contributors-guide/contributing',
-            'contributors-guide/adopt',
+        "Contributor's Guide": [
+            'contributors-guide/getinvolved',
+            "contributors-guide/reportingbugs",
         ],
     },
 };

@@ -110,7 +110,7 @@
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---markdown-page-393-028"
   },
-  "/-e71": {
+  "/-497": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---935-fcf"
   },
@@ -130,13 +130,13 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---architecture-overview-0-b-1-d38"
   },
-  "/contributors-guide/adopt-3ca": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---contributors-guide-adopt-211-e10"
-  },
   "/contributors-guide/contributing-966": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---contributors-guide-contributingc-8-d-4f8"
+  },
+  "/contributors-guide/getinvolved-20d": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---contributors-guide-getinvolved-0-d-3-ba3"
   },
   "/contributors-guide/reportingbugs-788": {
     "component": "component---theme-doc-item-178-a40",

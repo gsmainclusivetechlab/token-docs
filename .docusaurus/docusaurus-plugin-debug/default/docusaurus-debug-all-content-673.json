@@ -85,15 +85,15 @@
               {
                 "collapsed": true,
                 "type": "category",
-                "label": "Adoption and Contributions",
+                "label": "Contributor's Guide",
                 "items": [
                   {
                     "type": "doc",
-                    "id": "contributors-guide/contributing"
+                    "id": "contributors-guide/getinvolved"
                   },
                   {
                     "type": "doc",
-                    "id": "contributors-guide/adopt"
+                    "id": "contributors-guide/reportingbugs"
                   }
                 ]
               }
@@ -101,8 +101,8 @@
           },
           "permalinkToSidebar": {
             "/architecture/overview": "someSidebar",
-            "/contributors-guide/adopt": "someSidebar",
-            "/contributors-guide/contributing": "someSidebar",
+            "/contributors-guide/getinvolved": "someSidebar",
+            "/contributors-guide/reportingbugs": "someSidebar",
             "/": "someSidebar",
             "/docguide": "someSidebar",
             "/introduction/itl": "someSidebar",
@@ -184,23 +184,6 @@
               "sidebar_label": "Biometric Suppliers"
             },
             {
-              "unversionedId": "contributors-guide/adopt",
-              "id": "contributors-guide/adopt",
-              "isDocsHomePage": false,
-              "title": "Adopt",
-              "description": "This section helps you getting started through the ejection process of the modules included on this project so that you can adopt them on your stack.",
-              "source": "@site/docs/contributors-guide/adopt.md",
-              "slug": "/contributors-guide/adopt",
-              "permalink": "/contributors-guide/adopt",
-              "version": "current",
-              "sidebar_label": "Get Started",
-              "sidebar": "someSidebar",
-              "previous": {
-                "title": "Contributing",
-                "permalink": "/contributors-guide/contributing"
-              }
-            },
-            {
               "unversionedId": "contributors-guide/contributing",
               "id": "contributors-guide/contributing",
               "isDocsHomePage": false,
@@ -210,15 +193,27 @@
               "slug": "/contributors-guide/contributing",
               "permalink": "/contributors-guide/contributing",
               "version": "current",
-              "sidebar_label": "Contributing",
+              "sidebar_label": "Contributing"
+            },
+            {
+              "unversionedId": "contributors-guide/getinvolved",
+              "id": "contributors-guide/getinvolved",
+              "isDocsHomePage": false,
+              "title": "Getting Involved",
+              "description": "This section helps you getting started through the ejection process of the modules included on this project so that you can adopt them on your stack.",
+              "source": "@site/docs/contributors-guide/getinvolved.md",
+              "slug": "/contributors-guide/getinvolved",
+              "permalink": "/contributors-guide/getinvolved",
+              "version": "current",
+              "sidebar_label": "Getting Involved",
               "sidebar": "someSidebar",
               "previous": {
                 "title": "Commands",
                 "permalink": "/manual/commands"
               },
               "next": {
-                "title": "Adopt",
-                "permalink": "/contributors-guide/adopt"
+                "title": "Reporting bugs",
+                "permalink": "/contributors-guide/reportingbugs"
               }
             },
             {
@@ -231,7 +226,12 @@
               "slug": "/contributors-guide/reportingbugs",
               "permalink": "/contributors-guide/reportingbugs",
               "version": "current",
-              "sidebar_label": "Reporting bugs"
+              "sidebar_label": "Reporting bugs",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Getting Involved",
+                "permalink": "/contributors-guide/getinvolved"
+              }
             },
             {
               "unversionedId": "developer-guide/developers",
@@ -279,7 +279,7 @@
               "id": "introduction/docguide",
               "isDocsHomePage": false,
               "title": "Documentation Guide",
-              "description": "The main purpose of this documentation is to guide users and contributors about",
+              "description": "The main purpose of this documentation is to guide users and contributors on",
               "source": "@site/docs/introduction/docguide.mdx",
               "slug": "/docguide",
               "permalink": "/docguide",
@@ -333,8 +333,8 @@
                 "permalink": "/manual/livesimulation"
               },
               "next": {
-                "title": "Contributing",
-                "permalink": "/contributors-guide/contributing"
+                "title": "Getting Involved",
+                "permalink": "/contributors-guide/getinvolved"
               }
             },
             {
@@ -438,7 +438,7 @@
               "id": "usecases/scenarioslist",
               "isDocsHomePage": false,
               "title": "List of Scenarios",
-              "description": "| Test Case                                     | ID                   | Type | Mode | Use Case |",
+              "description": "| User Scenario                                     | ID                   | Type | Mode | Use Case |",
               "source": "@site/docs/usecases/scenarioslist.md",
               "slug": "/usecases/scenarioslist",
               "permalink": "/usecases/scenarioslist",

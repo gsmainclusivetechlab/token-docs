@@ -8,14 +8,5 @@
   "slug": "/contributors-guide/contributing",
   "permalink": "/contributors-guide/contributing",
   "version": "current",
-  "sidebar_label": "Contributing",
-  "sidebar": "someSidebar",
-  "previous": {
-    "title": "Commands",
-    "permalink": "/manual/commands"
-  },
-  "next": {
-    "title": "Adopt",
-    "permalink": "/contributors-guide/adopt"
-  }
+  "sidebar_label": "Contributing"
 }

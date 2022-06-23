@@ -89,7 +89,7 @@ export default [
 },
 {
   path: '/',
-  component: ComponentCreator('/','e71'),
+  component: ComponentCreator('/','497'),
   
   routes: [
 {
@@ -113,13 +113,13 @@ export default [
   exact: true,
 },
 {
-  path: '/contributors-guide/adopt',
-  component: ComponentCreator('/contributors-guide/adopt','3ca'),
+  path: '/contributors-guide/contributing',
+  component: ComponentCreator('/contributors-guide/contributing','966'),
   exact: true,
 },
 {
-  path: '/contributors-guide/contributing',
-  component: ComponentCreator('/contributors-guide/contributing','966'),
+  path: '/contributors-guide/getinvolved',
+  component: ComponentCreator('/contributors-guide/getinvolved','20d'),
   exact: true,
 },
 {

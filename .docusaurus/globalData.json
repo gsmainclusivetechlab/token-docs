@@ -32,18 +32,18 @@
               "path": "/suppliers"
             },
             {
-              "id": "contributors-guide/adopt",
-              "path": "/contributors-guide/adopt",
-              "sidebar": "someSidebar"
+              "id": "contributors-guide/contributing",
+              "path": "/contributors-guide/contributing"
             },
             {
-              "id": "contributors-guide/contributing",
-              "path": "/contributors-guide/contributing",
+              "id": "contributors-guide/getinvolved",
+              "path": "/contributors-guide/getinvolved",
               "sidebar": "someSidebar"
             },
             {
               "id": "contributors-guide/reportingbugs",
-              "path": "/contributors-guide/reportingbugs"
+              "path": "/contributors-guide/reportingbugs",
+              "sidebar": "someSidebar"
             },
             {
               "id": "developer-guide/developers",

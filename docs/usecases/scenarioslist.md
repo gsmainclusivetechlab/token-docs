@@ -3,7 +3,7 @@ title: List of Scenarios
 sidebar_label: List of Scenarios
 ---
 
-| Test Case                                     | ID                   | Type | Mode | Use Case |
+| User Scenario                                     | ID                   | Type | Mode | Use Case |
 | --------------------------------------------- | -------------------- | ---- | ---- | -------- |
 | Customer Initiated - Agent Cancels            | Phone Number         | Mock | USSD | Cash-In  |
 | Customer Initiated - No PIN Number            | Phone Number         | Mock | USSD | Cash-In  |

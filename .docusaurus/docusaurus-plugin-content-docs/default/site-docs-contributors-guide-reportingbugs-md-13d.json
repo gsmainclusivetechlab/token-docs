@@ -8,5 +8,10 @@
   "slug": "/contributors-guide/reportingbugs",
   "permalink": "/contributors-guide/reportingbugs",
   "version": "current",
-  "sidebar_label": "Reporting bugs"
+  "sidebar_label": "Reporting bugs",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Getting Involved",
+    "permalink": "/contributors-guide/getinvolved"
+  }
 }

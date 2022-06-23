@@ -1,7 +1,6 @@
 ---
-id: adopt
-title: Adopt
-sidebar_label: Get Started
+title: Getting Involved
+sidebar_label: Getting Involved
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
@@ -11,6 +10,7 @@ This section helps you getting started through the ejection process of the modul
 ### Demonstration Only Modules
 As stated before the project is organised in different services.
 Some of those services were built for demonstration purposes only, like so, the Proxy Service and Web Client  are disposable as their purpose is to serve the live and on premises demonstrations.
+
 
 ### Adoption Modules
 The Engine (:4400), The Token Algorithm Solution (:3700) and the Database (:3306) are three of the key modules which should be considered when crafting an adoption plan.

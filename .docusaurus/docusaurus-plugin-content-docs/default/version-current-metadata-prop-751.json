@@ -86,17 +86,17 @@
       {
         "collapsed": true,
         "type": "category",
-        "label": "Adoption and Contributions",
+        "label": "Contributor's Guide",
         "items": [
           {
             "type": "link",
-            "label": "Contributing",
-            "href": "/contributors-guide/contributing"
+            "label": "Getting Involved",
+            "href": "/contributors-guide/getinvolved"
           },
           {
             "type": "link",
-            "label": "Get Started",
-            "href": "/contributors-guide/adopt"
+            "label": "Reporting bugs",
+            "href": "/contributors-guide/reportingbugs"
           }
         ]
       }
@@ -104,8 +104,8 @@
   },
   "permalinkToSidebar": {
     "/architecture/overview": "someSidebar",
-    "/contributors-guide/adopt": "someSidebar",
-    "/contributors-guide/contributing": "someSidebar",
+    "/contributors-guide/getinvolved": "someSidebar",
+    "/contributors-guide/reportingbugs": "someSidebar",
     "/": "someSidebar",
     "/docguide": "someSidebar",
     "/introduction/itl": "someSidebar",

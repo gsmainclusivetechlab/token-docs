@@ -29,6 +29,7 @@ Good pull requests - patches, improvements, new features - are a fantastic help.
 
 2. [Open a Pull Request](https://github.com/gsmainclusivetechlab/token-backend/pulls) with a clear title and description with your changes.
 
-### Convention 
 
+:::note Convention 
 This project follows the [Semantic Versioning](https://semver.org/) convention.
+:::

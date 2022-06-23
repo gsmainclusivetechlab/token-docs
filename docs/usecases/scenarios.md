@@ -70,7 +70,7 @@ A customer wants to initiate a cash-in transaction on his device. So, they input
 
 A customer wants to make a cash-in transaction and request the agent to proceed with the cash-in. The agent asks for the customer's **mobile number** or **token.** With this information the agent starts the transaction, requiring the approval of customer in their mobile device. 
 
-### Diagram
+### Diagrams
 
 **Customer Initiated Cash-in**
 
@@ -79,15 +79,15 @@ sequenceDiagram
     Customer->>+System: Request a cash-in transaction using mobile number or token
     System->>Customer: Please verify your identity
     Customer->>System: Sends PIN number
-    alt is Approved
+    alt Wrong PIN
+        System--xCustomer: Wrong PIN number 
+    else Correct PIN
         System->>+Agent: Receives request for cash-in from customer
-    else is Rejected
-        System->>Customer: Wrong PIN number 
     end
-    alt is Approved
-        Agent->>System: Aprove the requested service
-    else is Rejected
-        Agent->>System: Rejects
+    alt Agent Approves Transaction
+        Agent->>System: The transaction is approved
+    else Agent Rejects Transaction
+        Agent->>System: The transaction is rejected
     end
     System->>Customer: Sends notification with tthe results of the transaction
 ```
@@ -99,12 +99,12 @@ sequenceDiagram
     Agent->>+System: Request a cash-in transaction from a mobile number or token
     System->>Customer: Agent requests your approval for a cash-in transaction: <br> Please verify your identity
     Customer->>System: Sends PIN number
-    alt is Approved
+    alt Wrong PIN
+        System-XCustomer: Wrong PIN number 
+    else PIN is Correct
         System->>+Agent: Receives approval to proceed with transaction
-    else is Rejected
-        System->>Customer: Wrong PIN number 
     end
-    Agent->>System: Confirma the transaction was executed
+    Agent->>System: Approves the transaction
     System->>Customer: Sends notification with tthe results of the transaction
 ```
 
@@ -124,7 +124,7 @@ A customer wants to initiate a cash-out transaction on his device. So, they inpu
 
 A customer wants to make a cash-out transaction and request the agent to proceed with the cash-out. The agent asks for the customer's **mobile number** or **token.** With this information the agent starts the transaction, requiring the approval of customer in their mobile device. 
 
-### Diagram
+### Diagrams
 
 **Customer Initiated Cash-out**
 
@@ -133,32 +133,32 @@ sequenceDiagram
     Customer->>+System: Request a cash-out transaction using mobile number or token
     System->>Customer: Please verify your identity
     Customer->>System: Sends PIN number
-    alt is Approved
+    alt Wrong PIN
+        System--xCustomer: Wrong PIN number 
+    else Correct PIN
         System->>+Agent: Receives request for cash-out from customer
-    else is Rejected
-        System->>Customer: Wrong PIN number 
     end
-    alt is Approved
-        Agent->>System: Aprove the requested service
-    else is Rejected
-        Agent->>System: Rejects
+    alt Agent Approves Transaction
+        Agent->>System: The transaction is approved
+    else Agent Rejects Transaction
+        Agent->>System: The transaction is rejected 
     end
     System->>Customer: Sends notification with tthe results of the transaction
 ```
 
-**Agent Initiated Cash-in**
+**Agent Initiated Cash-Out**
 
 ```mermaid
 sequenceDiagram
     Agent->>+System: Request a cash-out transaction from a mobile number or token
     System->>Customer: Agent requests your approval for a cash-out transaction: <br> Please verify your identity
     Customer->>System: Sends PIN number
-    alt is Approved
+    alt Wrong PIN
+        System-XCustomer: Wrong PIN number 
+    else PIN is Correct
         System->>+Agent: Receives approval to proceed with transaction
-    else is Rejected
-        System->>Customer: Wrong PIN number 
     end
-    Agent->>System: Confirma the transaction was executed
+    Agent->>System: Approves the transaction
     System->>Customer: Sends notification with tthe results of the transaction
 ```
 
@@ -178,8 +178,45 @@ A customer wants to initiate a payment transaction on his device. So, they input
 
 A customer wants to make a payment transaction and request the agent to proceed with the payment. The agent asks for the customer's **mobile number** or **token.** With this information the agent starts the transaction, requiring the approval of customer in their mobile device, including a PIN number for authorisation. 
 
-### Diagram
+### Diagrams
 
 **Customer Initiated Payment**
 
-**Agent Initiated Payment**
+```mermaid
+%%{init: {'theme': 'default' } }%%
+
+sequenceDiagram
+    Customer->>+System: Request a payment transaction using mobile number or token
+    System->>Customer: Please verify your identity
+    Customer->>System: Sends PIN number
+    alt Wrong PIN
+        System--xCustomer: Wrong PIN number 
+    else Correct PIN
+        System->>+Merchant: Receives request for payment transaction from customer
+        Note left of Merchant: The type and amount of the transaction are informed
+    end
+    alt Merchant Approves Transaction
+        Merchant->>System: The transaction is approved
+    else Merchant Rejects Transaction
+        Merchant-XSystem: The transaction is rejected
+    end
+    System->>Customer: Sends notification with tthe results of the transaction
+```
+
+**Merchant Initiated Payment**
+
+```mermaid
+%%{init: {'theme': 'default' } }%%
+sequenceDiagram
+    Merchant->>+System: Request a payment transaction from a mobile number or token
+    System->>Customer: Merchant requests your approval for a payment transaction: <br> Please verify your identity
+    Note left of Customer: The type and amount of the transaction are informed
+    Customer->>System: Sends PIN number
+    alt Wrong PIN
+        System-XCustomer: Wrong PIN number 
+    else PIN is Correct
+        System->>+Merchant: Receives approval to proceed with transaction
+    end
+    Merchant->>System: Merchant approves the payment transaction
+    System->>Customer: Sends notification with tthe results of the transaction
+```
