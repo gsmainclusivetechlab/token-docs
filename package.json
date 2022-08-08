@@ -1,6 +1,6 @@
 {
   "name": "token-docs",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
@@ -14,12 +14,12 @@
     "write-heading-ids": "docusaurus write-heading-ids"
   },
   "dependencies": {
-    "@docusaurus/core": "2.0.0-alpha.71",
-    "@docusaurus/preset-classic": "2.0.0-alpha.71",
-    "@mdx-js/react": "^1.6.21",
-    "clsx": "^1.1.1",
+    "@docusaurus/core": "2.0.1",
+    "@docusaurus/preset-classic": "2.0.1",
+    "@mdx-js/react": "^2.1.2",
+    "clsx": "^1.2.1",
     "mdx-mermaid": "^1.2.3",
-    "mermaid": "^9.1.2",
+    "mermaid": "^8.11.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
@@ -36,6 +36,6 @@
     ]
   },
   "devDependencies": {
-    "dotenv-webpack": "^7.0.2"
+    "dotenv-webpack": "^8.0.0"
   }
 }
