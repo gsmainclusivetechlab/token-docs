@@ -36,6 +36,6 @@
     ]
   },
   "devDependencies": {
-    "dotenv-webpack": "^7.0.2"
+    "dotenv-webpack": "^8.0.0"
   }
 }
