@@ -19,7 +19,7 @@ module.exports = {
         footer: {
             style: 'dark',
 
-            copyright: `Copyright © 2022 GSMA. All rights reserved.`,
+            copyright: `Copyright © 2023 GSMA. All rights reserved.`,
         },
 
     },
